@@ -1,0 +1,53 @@
+<!-- views/pages/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="container">
+
+<header>
+    <% include ../partials/header %>
+</header>
+
+<div class="jumbotron">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <div align="left"><h2>Hello <%= full_name %></h2></div>
+
+    <div align="center"><h4>Popular Media at the moment. </h4></div>
+
+    <table width="200" class="table table-bordered">
+        <thead>
+        <tr>
+            <!--<th>images.standard_resolution</th>-->
+            <th>username</th>
+            <th>full_name</th>
+        </tr>
+        </thead>
+    </table>
+
+    <div>
+        <% for (var i = 0; i < data_array.length; i++) { %>
+        <table width="200" class="table table-bordered">
+            <tr>
+                <td align=center></td>
+                <td align=center><%= data_array[i].user.username %></td>
+                <td align=center><%= data_array[i].user.full_name %></td>
+
+            </tr>
+        </table>
+        <% } %>
+    </div>
+    </table>
+
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+</div>
+</body>
+</head>
+</html>

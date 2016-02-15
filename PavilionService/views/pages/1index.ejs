@@ -1,0 +1,72 @@
+<!-- views/pages/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="container">
+
+<header>
+    <% include ../partials/header %>
+</header>
+
+<div class="jumbotron">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <div class="btn-group" data-toggle="buttons-radio">
+        <button type="button" class="btn btn-primary">AUS</button>
+        <button type="button" class="btn btn-primary">ENG</button>
+        <button type="button" class="btn btn-primary">IND</button>
+        <button type="button" class="btn btn-primary">NZ</button>
+        <button type="button" class="btn btn-primary">PAK</button>
+        <button type="button" class="btn btn-primary">SA</button>
+        <button type="button" class="btn btn-primary">SL</button>
+        <button type="button" class="btn btn-primary">WI</button>
+
+        <input type="text" id="buttonvalue"/>
+
+        <script language="javascript" type="text/javascript">
+            $(".btn-group button").click(function () {
+                $("#buttonvalue").val($(this).text());
+            });
+        </script>
+    </div>
+
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th data-field="id">Player Name</th>
+            <!--<th data-field="name">Country</th>-->
+            <th data-field="price">Tests</th>
+            <th data-field="price">Innings</th>
+            <th data-field="price">Runs</th>
+            <th data-field="price">Bat Average</th>
+            <th data-field="price">Strike Rate</th>
+            <th data-field="price">Highest Score</th>
+            <th data-field="price">Hundreds</th>
+            <th data-field="price">Fifties</th>
+        </tr>
+        </thead>
+        <% players.forEach(function(player) { %>
+        <tr>
+            <td><%= player.player_name %></td>
+            <!--<td><%= player.country %></td>-->
+            <td><%= player.tests %></td>
+            <td><%= player.innings %></td>
+            <td><%= player.runs %></td>
+            <td><%= player.bat_avg %></td>
+            <td><%= player.strike_rate %></td>
+            <td><%= player.highest_score %></td>
+            <td><%= player.hundreds %></td>
+            <td><%= player.fifties %></td>
+        </tr>
+        <% }); %>
+    </table>
+</div>
+<footer>
+    <% include ../partials/footer %>
+</footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "PavilionService",
+  "version": "0.0.1",
+  "description": "Pavilion Service",
+  "repository": {
+    "type": "git"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "~3.4.0",
+    "request": "^2.61.0",
+    "sqlite3": "^3.0.10",
+    "sync-request": "^2.0.1",
+    "nodemon": "^1.0.15"
+  },
+  "engines": [
+    "node = 0.8.x"
+  ],
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
