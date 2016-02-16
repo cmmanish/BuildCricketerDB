@@ -1,0 +1,3 @@
+[submodule "PavilionService"]
+	path = PavilionService
+	url = git@github.com:cmmanish/PavilionService.git
