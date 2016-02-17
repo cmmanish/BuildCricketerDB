@@ -28,17 +28,13 @@ public class QaProperties { // singleton
         try {
             FileInputStream in;
             String address = "src/main/resources/local.properties";
-
-            log.info("Looking for property file: " + address);
-
+//            log.info("Looking for property file: " + address);
             File fileProps = new File(address);
-
             if (fileProps.exists()) {
                 in = new FileInputStream(fileProps);
             } else {
                 in = new FileInputStream(new File("local.properties"));
             }
-
             props.load(in);
             in.close();
             return props;
@@ -98,7 +94,7 @@ public class QaProperties { // singleton
         return props.getProperty("reports.root.folder").trim();
     }
 
-    public static String getTestRailsReportDir() throws NullPointerException {
+    public static String getJSONDir() throws NullPointerException {
         return props.getProperty("testrail_scripts.root.folder").trim();
     }
 

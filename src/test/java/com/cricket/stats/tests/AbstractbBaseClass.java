@@ -28,7 +28,7 @@ public class AbstractbBaseClass {
     protected static JSONObject playerStatsJSON = new org.json.simple.JSONObject();
     protected JSONObject eachPlayer = new JSONObject();
     protected static JSONArray resultsList = new JSONArray();
-    protected static String testrailDir = QaProperties.getTestRailsReportDir();
+    protected static String testrailDir = QaProperties.getJSONDir();
     protected String id = "", country = "", cbURL = "", name = "", tests = "0", inns = "0", fours = "0", sixes = "0";
     protected String runs = "0", highestScore = "0", batAvg = "0.00", strikeRate = "0.00", notOuts = "0", hundreds = "0", fifties = "0";
     protected static String fileName = "";

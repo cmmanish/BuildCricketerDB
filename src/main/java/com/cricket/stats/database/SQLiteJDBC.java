@@ -13,14 +13,27 @@ import java.sql.*;
 public class SQLiteJDBC {
     public static Logger log = Logger.getLogger(SQLiteJDBC.class);
 
-    protected static String fileName = "SAPlayerStats.json";
-    protected static String jsonDIR = QaProperties.getTestRailsReportDir();
-    protected static FileReader fileReader = null;
+    public static String[] countryList = {"IND", "AUS", "ENG", "PAK", "SL", "SA", "NZ", "WI"};
+    protected static String fileName = "PlayerStats.json";
+    protected static String jsonDIR = QaProperties.getJSONDir();
     private String JDBCConnection = "org.sqlite.JDBC";
-    private String dbConectionString = "jdbc:sqlite:database/CRICKET.db";
+    private String dbConectionString = "jdbc:sqlite:PavilionService/database/CRICKET.db";
     protected String playerName, cbURL, country = "";
     protected int id, tests, innings, runs, highestScore, notOuts, hundreds, fifties, fours, sixes = 0;
     protected double batAvg, strikeRate = 0.00;
+
+    public static void main(String args[]) {
+
+        SQLiteJDBC sqliteJDBC = new SQLiteJDBC();
+        sqliteJDBC.dbConnect();
+        sqliteJDBC.deleteDB("");
+        for (String countryId : countryList) {
+            String filePath = jsonDIR + File.separator + countryId + fileName;
+            sqliteJDBC.readJSON(filePath, countryId);
+        }
+        log.info(sqliteJDBC.getRowCount());
+   //     sqliteJDBC.selectRow();
+    }
 
     public void dbConnect() {
         Connection c = null;
@@ -32,7 +45,7 @@ public class SQLiteJDBC {
             log.error(e.getClass().getName() + ": " + e.getMessage());
             System.exit(0);
         }
-        log.info("database Opened successfully");
+        log.info("database Connected successfully");
     }
 
     public boolean createTable() {
@@ -74,16 +87,15 @@ public class SQLiteJDBC {
         }
     }
 
-    public boolean insertIntoDataBase() {
+    public boolean insertIntoDatabase(String countryId) {
         boolean flag = false;
         Connection conn = null;
         try {
             Class.forName(JDBCConnection);
             conn = DriverManager.getConnection(dbConectionString);
             conn.setAutoCommit(false);
-            log.info("Opened database successfully");
-
-            String query = "INSERT INTO PLAYER (id, player_name, tests, innings, runs, highest_score, bat_avg, strike_rate, not_outs, hundreds, fifties, sixes, fours, cb_url,country )" + " VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);";
+            String query = "INSERT OR IGNORE INTO PLAYER (id, player_name, tests, innings, runs, highest_score, bat_avg, strike_rate, not_outs, hundreds, fifties, sixes, fours, cb_url,country )" +
+                    " VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);";
 
             PreparedStatement stmt = conn.prepareStatement(query);
             stmt.setInt(1, id);
@@ -105,7 +117,7 @@ public class SQLiteJDBC {
             stmt.executeUpdate();
             stmt.close();
             conn.commit();
-            conn.close();
+            //conn.close();
             log.info("Inserted " + playerName + " successfully");
             flag = true;
         } catch (java.sql.SQLException sql) {
@@ -116,47 +128,81 @@ public class SQLiteJDBC {
         return flag;
     }
 
-    public void deleteDB() {
+    public void deleteDB(String str) {
         Connection c = null;
         Statement stmt = null;
         try {
             Class.forName(JDBCConnection);
             c = DriverManager.getConnection(dbConectionString);
             c.setAutoCommit(false);
-            System.out.println("Opened database successfully");
 
             stmt = c.createStatement();
-            String sql = "DELETE from PLAYER where country= 'AUS'";
+            String sql = "DELETE from PLAYER;";
             stmt.executeUpdate(sql);
-            c.commit();
-
-            ResultSet rs = stmt.executeQuery("SELECT * FROM PLAYER;");
-            while (rs.next()) {
-                int id = rs.getInt("id");
-                String name = rs.getString("name");
-                int age = rs.getInt("age");
-                String address = rs.getString("address");
-                float salary = rs.getFloat("salary");
-                System.out.println("ID = " + id);
-                System.out.println("NAME = " + name);
-                System.out.println("AGE = " + age);
-                System.out.println("ADDRESS = " + address);
-                System.out.println("SALARY = " + salary);
-                System.out.println();
-            }
-            rs.close();
+            //c.commit();
             stmt.close();
             c.close();
         } catch (Exception e) {
             System.err.println(e.getClass().getName() + ": " + e.getMessage());
-            System.exit(0);
         }
-        log.info("Operation done successfully");
-
+        log.info("deleteDB Operation done");
     }
 
-    public boolean readJSON(String filePath) {
+    public int getRowCount() {
+        Connection c = null;
+        Statement stmt = null;
+        int count = 0;
+        try {
+            Class.forName(JDBCConnection);
+            c = DriverManager.getConnection(dbConectionString);
+            c.setAutoCommit(false);
 
+            stmt = c.createStatement();
+            String sql = "select count (*) as Rows from PLAYER;";
+            ResultSet rs = stmt.executeQuery(sql);
+
+            while (rs.next()) {
+                count = rs.getInt("Rows");
+            }
+            //c.commit();
+            stmt.close();
+            c.close();
+            return count;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return -1;
+        }
+    }
+
+    public int selectRow() {
+        Connection c = null;
+        Statement stmt = null;
+        int count = 0;
+        try {
+            Class.forName(JDBCConnection);
+            c = DriverManager.getConnection(dbConectionString);
+            c.setAutoCommit(false);
+
+            stmt = c.createStatement();
+            String sql = "select *  from PLAYER where country = 'IND';";
+            ResultSet rs = stmt.executeQuery(sql);
+
+            while (rs.next()) {
+                count = rs.getInt("Rows");
+            }
+            //c.commit();
+            stmt.close();
+            c.close();
+            return count;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return -1;
+        }
+    }
+
+    public boolean readJSON(String filePath, String countryId) {
+
+        log.info(countryId);
         try {
             JSONParser parser = new JSONParser();
             Object obj = parser.parse(new FileReader(filePath));
@@ -164,7 +210,6 @@ public class SQLiteJDBC {
             JSONArray playerList = (JSONArray) jsonObject.get("Players");
 
             for (int i = 0; i < playerList.size(); i++) {
-
                 JSONObject eachPlayer = (JSONObject) playerList.get(i);
 
                 id = Integer.parseInt(eachPlayer.get("id").toString());
@@ -186,24 +231,12 @@ public class SQLiteJDBC {
                 fours = Integer.parseInt(eachPlayer.get("fours").toString());
                 cbURL = eachPlayer.get("cbURL").toString();
 
-                insertIntoDataBase();
+                insertIntoDatabase(countryId);
             }
             return true;
         } catch (Exception e) {
             e.printStackTrace();
             return false;
         }
-
-    }
-
-    public static void main(String args[]) {
-
-        SQLiteJDBC sQLiteJDBC = new SQLiteJDBC();
-        sQLiteJDBC.dbConnect();
-        //        sQLiteJDBC.dropTable();
-        //        sQLiteJDBC.createTable();
-        String filePath = jsonDIR + File.separator + fileName;
-        sQLiteJDBC.readJSON(filePath);
-
     }
 }

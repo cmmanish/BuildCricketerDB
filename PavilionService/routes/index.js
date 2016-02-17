@@ -7,10 +7,10 @@ exports.handleHOME = function (request, response) {
     response.render('pages/index');
 };
 
-exports.handleGETALL = function (request, response) {
+exports.handleGETDatabase = function (request, response) {
 
   var country = request.params.country;
-  var contents = fs.readFileSync("../data/json/"+country+"PlayerStats.json");
+  var contents = fs.readFileSync("json/"+country+"PlayerStats.json");
   var jsonContent = JSON.parse(contents);
 
   response.on('error', function(err) {
@@ -28,7 +28,7 @@ exports.handleGET = function (request, response) {
     if (request.params.country == null){
         country = 'IND'
     }
-    var contents = fs.readFileSync("../data/json/"+country+"PlayerStats.json");
+    var contents = fs.readFileSync("json/"+country+"PlayerStats.json");
     var jsonContent = JSON.parse(contents);
 
     response.on('error', function(err) {

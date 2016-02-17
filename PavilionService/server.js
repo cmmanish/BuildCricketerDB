@@ -14,7 +14,7 @@ app.configure(function () {// set the view engine to ejs
 
 app.get('/', routes.handleHOME);
 
-app.get('/GET', routes.handleGETALL);
+app.get('/GET', routes.handleGETDatabase);
 
 app.get('/GET/:country', routes.handleGET);
 

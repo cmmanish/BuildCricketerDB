@@ -17,7 +17,7 @@ import java.util.List;
 public class QaFileReader {
 
     public static Logger log = Logger.getLogger(QaFileReader.class);
-    private static String testrailDir = QaProperties.getTestRailsReportDir();
+    private static String testrailDir = QaProperties.getJSONDir();
     String fileName = QaConstants.IND_PLAYER_STATS_FILE_JSON;
     String filePath = testrailDir + File.separator + fileName;
     File file = new File(filePath);

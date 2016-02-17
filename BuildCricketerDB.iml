@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="BuildCricketerDB" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="" external.system.module.version="1.0-FINAL" type="JAVA_MODULE" version="4">
-  <component name="FacetManager">
-    <facet type="Python" name="Python">
-      <configuration sdkName="Python 2.7.6 (/usr/bin/python)" />
-    </facet>
-  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/build/classes/main" />
     <output-test url="file://$MODULE_DIR$/build/classes/test" />
@@ -17,662 +12,67 @@
       <excludeFolder url="file://$MODULE_DIR$/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
     </content>
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.apache.commons:commons-email:1.2">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-email/1.2/6cd5d2b5c11d2898b901e3162d825b804699187d/commons-email-1.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-email/1.2/d6d9c571c856c775e6b5248fef4122ccd31a84e4/commons-email-1.2-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.seleniumhq.selenium:selenium-java:2.45.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-java/2.45.0/9957014229dc0c5bd713fe4fb7ba9a7e85eb2e60/selenium-java-2.45.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.seleniumhq.selenium:selenium-firefox-driver:2.45.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/2.45.0/9d4bafad982efb1374c7061d9ee198fd42fd9e35/selenium-firefox-driver-2.45.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/2.45.0/14b405f9086813811c626fca5380cbff38489a9f/selenium-firefox-driver-2.45.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.seleniumhq.selenium:selenium-chrome-driver:2.45.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/2.45.0/da5cf82bacc49f215a83b57030e29c82296c3960/selenium-chrome-driver-2.45.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/2.45.0/925bf88dadf35715b0e357ceea93fb2396c09694/selenium-chrome-driver-2.45.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.seleniumhq.selenium:selenium-safari-driver:2.45.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-safari-driver/2.45.0/5fcb52b8246ecc55975edf4f9d4d4d9345cd5c7c/selenium-safari-driver-2.45.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-safari-driver/2.45.0/205b33bfc407769b199cde7394539bc643d7741b/selenium-safari-driver-2.45.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.seleniumhq.selenium:selenium-ie-driver:2.45.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-ie-driver/2.45.0/a03548c4ef0cbd2863f807114d1dcff156678475/selenium-ie-driver-2.45.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-ie-driver/2.45.0/dbef8f9383a52fe9a5005b8bfc1479dc5f9eae1b/selenium-ie-driver-2.45.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: log4j:log4j:1.2.17">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: junit:junit:4.11">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.json:json:20090211">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.json/json/20090211/c183aa3a2a6250293808bba12262c8920ce5a51c/json-20090211.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: com.googlecode.json-simple:json-simple:1.1">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1/5e303a03d04e6788dddfa3655272580ae0fc13bb/json-simple-1.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1/19c6d8dee6803c520d855ff7e8a8c3d97f1271ec/json-simple-1.1-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: javax.activation:activation:1.1">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/e6cb541461c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/3697e9f67a2ed7ac5f589cff30f21173299440/activation-1.1-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: javax.mail:mail:1.4.1">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.mail/mail/1.4.1/8b7bc69010655425dabf091b51d1e90b4de36715/mail-1.4.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.mail/mail/1.4.1/805fab433b5ea319373a5dcb133b48633ad898b1/mail-1.4.1-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.springframework:spring-web:4.1.3.RELEASE">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.3.RELEASE/8e3652e8c3675a940b65460c79e9e699f530c14b/spring-web-4.1.3.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.3.RELEASE/fc8c54416171d4fcc82f5b6e06818c79df2bb75b/spring-web-4.1.3.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.springframework:spring-core:4.1.3.RELEASE">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.1.3.RELEASE/bdfdc2249afcc8a3f589e94ec99eef24e7818a5e/spring-core-4.1.3.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.1.3.RELEASE/9601ced19300ef8007264be6f19acf5971ec874e/spring-core-4.1.3.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.codehaus.jackson:jackson-mapper-asl:1.8.5">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.8.5/56439095aa051521c5abb330235820c66886b5e5/jackson-mapper-asl-1.8.5.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.8.5/7ccd4c682958ee3c0465a904621cdeebe2d86e61/jackson-mapper-asl-1.8.5-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: io.appium:java-client:2.1.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.appium/java-client/2.1.0/4f196997275225055c6f36a297f0b596cd266e63/java-client-2.1.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.appium/java-client/2.1.0/cc72ed1ffe4affcb364af2edeb10c9872c553ba5/java-client-2.1.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.xerial:sqlite-jdbc:3.8.11.1">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.8.11.1/b33358a3e242b21f2fe518dc1471fab0a49a04a/sqlite-jdbc-3.8.11.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.8.11.1/7a49e71343b920bb218c648b5bdd5ec9d150a6ef/sqlite-jdbc-3.8.11.1-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.seleniumhq.selenium:selenium-htmlunit-driver:2.45.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-htmlunit-driver/2.45.0/79f46c6141d719190590a90e18c814f2ee88c99f/selenium-htmlunit-driver-2.45.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-htmlunit-driver/2.45.0/e20355341ec99f90f8715fb734ea106fbe52c067/selenium-htmlunit-driver-2.45.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.seleniumhq.selenium:selenium-support:2.45.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/2.45.0/31f5bea2a3b5f6977c3df7dc8c488ac5a0c29973/selenium-support-2.45.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/2.45.0/45d7003df023bca75d15408f9ecb8278cfc57995/selenium-support-2.45.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.webbitserver:webbit:0.4.14">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webbitserver/webbit/0.4.14/3bf3f17fe41fb34c4d98663957ec0795a6b6653e/webbit-0.4.14.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webbitserver/webbit/0.4.14/dbb23e08a4e265b145310f518bb23c5eeab479f8/webbit-0.4.14-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.seleniumhq.selenium:selenium-leg-rc:2.45.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-leg-rc/2.45.0/ea14c26aeb7a4c0718d06e7f1cb4d994fe9528e/selenium-leg-rc-2.45.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-leg-rc/2.45.0/282a06163bd9daa4aa0277696349429ac2bea850/selenium-leg-rc-2.45.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.seleniumhq.selenium:selenium-remote-driver:2.45.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/2.45.0/c2e40c45d84a35963051d0b35a1ce61cc3dfa7d0/selenium-remote-driver-2.45.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/2.45.0/cc9c42ec7cb9d1197c59635c8c4292bd52ace153/selenium-remote-driver-2.45.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: commons-io:commons-io:2.4">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/f2d8698c46d1167ff24b06a840a87d91a02db891/commons-io-2.4-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.apache.commons:commons-exec:1.1">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-exec/1.1/7dfdf16fade726000564386825ed6d911a44ba1/commons-exec-1.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-exec/1.1/f60bea898e18b308099862e8634d589b06a8b0be/commons-exec-1.1-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: net.java.dev.jna:jna:3.4.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/803ff252fedbd395baffd43b37341dc4a150a554/jna-3.4.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/2f42653596d0044f0ab456620cba54c9cf53c5ca/jna-3.4.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: net.java.dev.jna:platform:3.4.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/2f42653596d0044f0ab456620cba54c9cf53c5ca/platform-3.4.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.hamcrest:hamcrest-core:1.3">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.springframework:spring-aop:4.1.3.RELEASE">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.1.3.RELEASE/16162c5395752c0e6929d288575d206302924852/spring-aop-4.1.3.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.1.3.RELEASE/d68e9f3cdf71495bdcb46e82af28498b41d74c9b/spring-aop-4.1.3.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.springframework:spring-beans:4.1.3.RELEASE">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.1.3.RELEASE/6f5d51f73ecbf6ec9f13999f53d45af4371c6c8a/spring-beans-4.1.3.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.1.3.RELEASE/24e2e41549cf49da115cea584d89f869b6c46ca8/spring-beans-4.1.3.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.springframework:spring-context:4.1.3.RELEASE">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.1.3.RELEASE/2c39194ad514fc4b8a13b0f2155a59248e4f05d/spring-context-4.1.3.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.1.3.RELEASE/3319c6833d37f8e7f41421c4ddcd3bfe597b97b4/spring-context-4.1.3.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: commons-logging:commons-logging:1.2">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.codehaus.jackson:jackson-core-asl:1.8.5">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.8.5/713a5564acb9a5467521bbb53221ab8e1fe65039/jackson-core-asl-1.8.5.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.8.5/4161f28a79dcc9c3c2ca9dac1ebbb583395bc630/jackson-core-asl-1.8.5-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: cglib:cglib:3.1">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cglib/cglib/3.1/1f1cb6c7a7479e0c7fd7987109e503914bebe84a/cglib-3.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cglib/cglib/3.1/e651cbd93cb1c2155afdea6675c50e567f7ce91e/cglib-3.1-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: io.netty:netty:3.5.2.Final">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.5.2.Final/e6fb74a0699abe108969b2ec1f269391169a0426/netty-3.5.2.Final.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.5.2.Final/d8d752eb97963a1e1af2a6b506290c954b350e01/netty-3.5.2.Final-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: cglib:cglib-nodep:2.1_3">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cglib/cglib-nodep/2.1_3/58d3be5953547c0019e5704d6ed4ffda3b0c7c66/cglib-nodep-2.1_3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cglib/cglib-nodep/2.1_3/fd60a4ee07d2bce9fffcb2a3d88bdcdc1011ea5b/cglib-nodep-2.1_3-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.seleniumhq.selenium:selenium-api:2.45.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.45.0/722929091471fef3348df2079d1089754a8e4ec0/selenium-api-2.45.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.45.0/3c243a1a404a528a2e1d5922bbb7259ec95b435b/selenium-api-2.45.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: aopalliance:aopalliance:1.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.springframework:spring-expression:4.1.3.RELEASE">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.1.3.RELEASE/53695581a8a1860c4c23b1e712007749c41ff7f/spring-expression-4.1.3.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.1.3.RELEASE/f2d27d48af3e1fecf2acaa2863b9963424fdfc26/spring-expression-4.1.3.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.ow2.asm:asm:4.2">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/4.2/4b2c12b92dd045aeabf5b2aeeb3220bf010da9d4/asm-4.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/4.2/10735cd06b779a5f172fba69ea6f7b9cdc61a4d/asm-4.2-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: net.sourceforge.htmlunit:htmlunit:2.15">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.htmlunit/htmlunit/2.15/8d3e66215a2337cfbc5c3316820ab300022baa54/htmlunit-2.15.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.htmlunit/htmlunit/2.15/6004c988f225754cf4787ca6de4140100feecf43/htmlunit-2.15-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: xalan:xalan:2.7.1">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.1/75f1d83ce27bab5f29fff034fc74aa9f7266f22a/xalan-2.7.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.1/b1f9b407f3593c99ae2b137bb0733761fcee6595/xalan-2.7.1-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: commons-collections:commons-collections:3.2.1">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/fa095ef874374e5b2a11f8b06c26a5d68c7cb3a4/commons-collections-3.2.1-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.apache.httpcomponents:httpmime:4.3.3">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.3/e02368d7b56c0c376f227378a4f77de62864d020/httpmime-4.3.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.3/884b613cfc42948ad5d4cf507286ffe19592ebed/httpmime-4.3.3-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: net.sourceforge.htmlunit:htmlunit-core-js:2.15">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.htmlunit/htmlunit-core-js/2.15/a16512d2d032155cfa84fa1dcce79fe0aaa8b56a/htmlunit-core-js-2.15.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.htmlunit/htmlunit-core-js/2.15/76a38cfa7b0b9ef6db4be83de967f3120d04d7b7/htmlunit-core-js-2.15-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: xerces:xercesImpl:2.11.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/xerces/xercesImpl/2.11.0/9bb329db1cfc4e22462c9d6b43a8432f5850e92c/xercesImpl-2.11.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/xerces/xercesImpl/2.11.0/af86e59459a503adec5e9b47426dd9fa2ac5f1f6/xercesImpl-2.11.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: net.sourceforge.nekohtml:nekohtml:1.9.21">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.nekohtml/nekohtml/1.9.21/6841b177ab20385a9e9e0c83be3bf8711a6bc5e4/nekohtml-1.9.21.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.nekohtml/nekohtml/1.9.21/df2921aa9ca0c1d3639bfe73d2dadcacb6dae4a2/nekohtml-1.9.21-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: net.sourceforge.cssparser:cssparser:0.9.14">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.cssparser/cssparser/0.9.14/25f3d437b3cd4d4e6fab904d18967c64e4ab671d/cssparser-0.9.14.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.cssparser/cssparser/0.9.14/195812d229acc6cd107be4121ba3e1baf18cf6e4/cssparser-0.9.14-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.eclipse.jetty:jetty-websocket:8.1.15.v20140411">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-websocket/8.1.15.v20140411/296f3a0d556c55f0b386c1af2a4415d22a9f9e65/jetty-websocket-8.1.15.v20140411.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-websocket/8.1.15.v20140411/24562f1e2d8ba2dd84df0e35b75233548135c9c/jetty-websocket-8.1.15.v20140411-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: xalan:serializer:2.7.1">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/xalan/serializer/2.7.1/4b4b18df434451249bb65a63f2fb69e215a6a020/serializer-2.7.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: xml-apis:xml-apis:1.4.01">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/3789d9fada2d3d458c4ba2de349d48780f381ee3/xml-apis-1.4.01.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/5502da0c4c0a7916a604356ef19394ccfa30cd4b/xml-apis-1.4.01-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.w3c.css:sac:1.3">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.w3c.css/sac/1.3/cdb2dcb4e22b83d6b32b93095f644c3462739e82/sac-1.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.w3c.css/sac/1.3/d0eab9163d161293dcd1e291bc2b6b09b4b5c717/sac-1.3-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.eclipse.jetty:jetty-util:8.1.15.v20140411">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/8.1.15.v20140411/9fe1fedd4c3a0bc5dbc2f1c0588fc5c9c83014a5/jetty-util-8.1.15.v20140411.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/8.1.15.v20140411/52b2f181417318e2aa99807db18627520b5ec726/jetty-util-8.1.15.v20140411-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.eclipse.jetty:jetty-io:8.1.15.v20140411">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/8.1.15.v20140411/8849cf59187275366cd05f37b2fb71319291370b/jetty-io-8.1.15.v20140411.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/8.1.15.v20140411/49fd78caf4ca0c7cdbc532fc48ff46183bb8fb62/jetty-io-8.1.15.v20140411-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.eclipse.jetty:jetty-http:8.1.15.v20140411">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/8.1.15.v20140411/ab816e1b5eb0e055cfa4f3aef6876de210e2be7b/jetty-http-8.1.15.v20140411.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/8.1.15.v20140411/d375c6adb1b1194f606c9ded7a426dd3564d5355/jetty-http-8.1.15.v20140411-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.apache.httpcomponents:httpclient:4.3.6">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.6/4c47155e3e6c9a41a28db36680b828ced53b8af4/httpclient-4.3.6.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.6/af4d76be0c46ee26b0d9d1d4a34d244a633cac84/httpclient-4.3.6-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: com.google.code.gson:gson:2.3.1">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/563dcb685903c96ce8abbd03adf7fa49e19aa8b4/gson-2.3.1-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: com.google.guava:guava:18.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.apache.commons:commons-lang3:3.3.2">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/d2a489573c0ed2c4942b3660decad5d65087b406/commons-lang3-3.3.2-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: commons-codec:commons-codec:1.9">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/3f15fff45d57656685abfee9e8302bf14580044c/commons-codec-1.9-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.apache.httpcomponents:httpcore:4.3.3">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.3/f91b7a4aadc5cf486df6e4634748d7dd7a73f06d/httpcore-4.3.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.3/1b0aa62a6a91e9fa00c16f0a4a2c874804ed3b1e/httpcore-4.3.3-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="library" name="Python 2.7.6 (/usr/bin/python) interpreter library" level="application" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.commons:commons-email:1.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.seleniumhq.selenium:selenium-java:2.45.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.seleniumhq.selenium:selenium-firefox-driver:2.45.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.seleniumhq.selenium:selenium-chrome-driver:2.45.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.seleniumhq.selenium:selenium-safari-driver:2.45.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.seleniumhq.selenium:selenium-ie-driver:2.45.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: junit:junit:4.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.json:json:20090211" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.googlecode.json-simple:json-simple:1.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.mail:mail:1.4.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-web:4.1.3.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-core:4.1.3.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.codehaus.jackson:jackson-mapper-asl:1.8.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: io.appium:java-client:2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.xerial:sqlite-jdbc:3.8.11.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.seleniumhq.selenium:selenium-htmlunit-driver:2.45.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.seleniumhq.selenium:selenium-support:2.45.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.webbitserver:webbit:0.4.14" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.seleniumhq.selenium:selenium-leg-rc:2.45.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.seleniumhq.selenium:selenium-remote-driver:2.45.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-io:commons-io:2.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.commons:commons-exec:1.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: net.java.dev.jna:jna:3.4.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: net.java.dev.jna:platform:3.4.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-aop:4.1.3.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-beans:4.1.3.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-context:4.1.3.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.codehaus.jackson:jackson-core-asl:1.8.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: cglib:cglib:3.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: io.netty:netty:3.5.2.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: cglib:cglib-nodep:2.1_3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.seleniumhq.selenium:selenium-api:2.45.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-expression:4.1.3.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.ow2.asm:asm:4.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: net.sourceforge.htmlunit:htmlunit:2.15" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: xalan:xalan:2.7.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-collections:commons-collections:3.2.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.httpcomponents:httpmime:4.3.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: net.sourceforge.htmlunit:htmlunit-core-js:2.15" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: xerces:xercesImpl:2.11.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: net.sourceforge.nekohtml:nekohtml:1.9.21" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: net.sourceforge.cssparser:cssparser:0.9.14" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.eclipse.jetty:jetty-websocket:8.1.15.v20140411" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: xalan:serializer:2.7.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: xml-apis:xml-apis:1.4.01" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.w3c.css:sac:1.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.eclipse.jetty:jetty-util:8.1.15.v20140411" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.eclipse.jetty:jetty-io:8.1.15.v20140411" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.eclipse.jetty:jetty-http:8.1.15.v20140411" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.httpcomponents:httpclient:4.3.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.code.gson:gson:2.3.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.guava:guava:18.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.commons:commons-lang3:3.3.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-codec:commons-codec:1.9" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.httpcomponents:httpcore:4.3.3" level="project" />
   </component>
 </module>
