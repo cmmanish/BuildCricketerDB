@@ -10,15 +10,14 @@ exports.handleHOME = function (request, response) {
 exports.handleGETDatabase = function (request, response) {
 
   var country = request.params.country;
-  var contents = fs.readFileSync("json/"+country+"PlayerStats.json");
-  var jsonContent = JSON.parse(contents);
+  var contents = fs.readFileSync("database/CRICKET.db");
 
   response.on('error', function(err) {
         console.error(err);
       });
 
   response.writeHead(200, {'Content-Type': 'application/json'})
-  response.write(JSON.stringify(jsonContent));
+  response.write((contents));
   response.end();
 }
 

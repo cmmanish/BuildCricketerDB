@@ -29,6 +29,7 @@ dependencies {
     compile 'org.codehaus.jackson:jackson-mapper-asl:1.8.5'
     compile 'io.appium:java-client:2.1.0'
     compile 'org.xerial:sqlite-jdbc:3.8.11.1'
+    compile 'com.dropbox.core:dropbox-core-sdk:2.0-beta-5'
 
 }
 
