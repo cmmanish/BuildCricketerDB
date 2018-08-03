@@ -1,7 +1,6 @@
 package com.cricket.stats.database;
 
-import com.cricket.stats.util.QaProperties;
-import org.apache.log4j.Logger;
+import com.cricket.stats.utils.QaProperties;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -9,9 +8,10 @@ import org.json.simple.parser.JSONParser;
 import java.io.File;
 import java.io.FileReader;
 import java.sql.*;
+import java.util.logging.Logger;
 
 public class SQLiteJDBC {
-    public static Logger log = Logger.getLogger(SQLiteJDBC.class);
+    public static Logger log = Logger.getLogger(String.valueOf(SQLiteJDBC.class));
 
     public static String[] countryList = {"IND", "AUS", "ENG", "PAK", "SL", "SA", "NZ", "WI"};
     protected static String fileName = "PlayerStats.json";
@@ -22,19 +22,6 @@ public class SQLiteJDBC {
     protected int id, tests, innings, runs, highestScore, notOuts, hundreds, fifties, fours, sixes = 0;
     protected double batAvg, strikeRate = 0.00;
 
-    public static void main(String args[]) {
-
-        SQLiteJDBC sqliteJDBC = new SQLiteJDBC();
-        sqliteJDBC.dbConnect();
-        sqliteJDBC.deleteDB("");
-        for (String countryId : countryList) {
-            String filePath = jsonDIR + File.separator + countryId + fileName;
-            sqliteJDBC.readJSON(filePath, countryId);
-        }
-        log.info(sqliteJDBC.getRowCount());
-   //     sqliteJDBC.selectRow();
-    }
-
     public void dbConnect() {
         Connection c = null;
         try {
@@ -42,7 +29,7 @@ public class SQLiteJDBC {
             c = DriverManager.getConnection(dbConectionString);
 
         } catch (Exception e) {
-            log.error(e.getClass().getName() + ": " + e.getMessage());
+            log.info(e.getClass().getName() + ": " + e.getMessage());
             System.exit(0);
         }
         log.info("database Connected successfully");
@@ -55,7 +42,7 @@ public class SQLiteJDBC {
             try {
                 Class.forName(JDBCConnection);
                 c = DriverManager.getConnection(dbConectionString);
-                log.error("Opened database successfully");
+                log.info("Opened database successfully");
 
                 stmt = c.createStatement();
                 String sql = "CREATE TABLE PLAYER " +
@@ -81,7 +68,7 @@ public class SQLiteJDBC {
                 log.info("Table created successfully");
                 return true;
             } catch (Exception e) {
-                log.error(e);
+                e.printStackTrace();
                 return false;
             }
         }
@@ -121,9 +108,9 @@ public class SQLiteJDBC {
             log.info("Inserted " + playerName + " successfully");
             flag = true;
         } catch (java.sql.SQLException sql) {
-            log.error(sql);
+            sql.printStackTrace();
         } catch (Exception e) {
-            log.error(e);
+            e.printStackTrace();
         }
         return flag;
     }
@@ -138,8 +125,8 @@ public class SQLiteJDBC {
 
             stmt = c.createStatement();
             String sql = "DELETE from PLAYER;";
-            stmt.executeUpdate(sql);
-            //c.commit();
+            int a = stmt.executeUpdate(sql);
+            c.commit();
             stmt.close();
             c.close();
         } catch (Exception e) {
@@ -237,6 +224,23 @@ public class SQLiteJDBC {
         } catch (Exception e) {
             e.printStackTrace();
             return false;
+        }
+    }
+
+    public static void main(String args[]) {
+
+        SQLiteJDBC sqliteJDBC = new SQLiteJDBC();
+        try {
+            sqliteJDBC.dbConnect();
+            sqliteJDBC.deleteDB("");
+            for (String countryId : countryList) {
+                String filePath = jsonDIR + File.separator + countryId + fileName;
+                sqliteJDBC.readJSON(filePath, countryId);
+            }
+            log.info("" + sqliteJDBC.getRowCount());
+            //sqliteJDBC.selectRow();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }

@@ -2,7 +2,6 @@ package com.cricket.stats.tests;
 
 import com.cricket.stats.util.QaConstants;
 import com.cricket.stats.util.QaProperties;
-import org.apache.log4j.Logger;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.junit.After;
@@ -17,13 +16,14 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
+import java.util.logging.Logger;
 
 /**
  * Created by mmadhusoodan on 8/20/15.
  */
 public class AbstractbBaseClass {
 
-    public static Logger log = Logger.getLogger(TestPopulateIndiaPlayers.class);
+    public static Logger log = Logger.getLogger(String.valueOf(TestPopulateIndiaPlayers.class));
     protected String baseURL = "http://www.cricbuzz.com/";
     protected static JSONObject playerStatsJSON = new org.json.simple.JSONObject();
     protected JSONObject eachPlayer = new JSONObject();
