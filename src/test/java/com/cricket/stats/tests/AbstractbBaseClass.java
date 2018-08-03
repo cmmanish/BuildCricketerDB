@@ -1,7 +1,7 @@
 package com.cricket.stats.tests;
 
-import com.cricket.stats.util.QaConstants;
-import com.cricket.stats.util.QaProperties;
+import com.cricket.stats.utils.QaConstants;
+import com.cricket.stats.utils.QaProperties;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.junit.After;

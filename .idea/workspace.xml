@@ -2,45 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33eb8193-e61d-459e-b724-dab2ea699499" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/cache.properties.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/fileSnapshots.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/outputFileStates.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/outputFileStates.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/taskArtifacts.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0compileAndRun.sh" beforeDir="false" afterPath="$PROJECT_DIR$/0compileAndRun.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildCricketerDB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BuildCricketerDB.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PavilionService/database/CRICKET.db" beforeDir="false" afterPath="$PROJECT_DIR$/PavilionService/database/CRICKET.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/json/AUSPlayerStats.json" beforeDir="false" afterPath="$PROJECT_DIR$/PavilionService/json/AUSPlayerStats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cricket/stats/appium/AppiumManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cricket/stats/appium/AvailabelPorts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cricket/stats/appium/CommandPrompt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cricket/stats/appium/DeviceConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/cricket/stats/util/QaProperties.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cricket/stats/database/SQLiteJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cricket/stats/database/SQLiteJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cricket/stats/dropbox/JavaDropbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cricket/stats/dropbox/JavaDropbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cricket/stats/util/GetURLContent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cricket/stats/util/QaCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cricket/stats/utils/QaCalendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cricket/stats/util/QaConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cricket/stats/utils/QaConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cricket/stats/util/QaConvertor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cricket/stats/util/QaEmail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cricket/stats/util/QaFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cricket/stats/utils/QaFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cricket/stats/util/QaProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cricket/stats/utils/QaProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cricket/stats/util/QaRandom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cricket/stats/util/QaScreenshot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cricket/stats/QaReportProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/AbstractbBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/AbstractbBaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/BestPlayersFromScorecard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/BestPlayersFromScorecard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testrail_scripts/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testrail_scripts/testrail_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testrail_scripts/testrail_reporter.py" beforeDir="false" />
     </list>
     <ignored path="BuildCricketerDB.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,11 +67,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="0compileAndRun.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0compileAndRun.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="108">
+              <caret line="6" column="58" selection-start-line="6" selection-end-line="6" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestPopulateAustralianPlayers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/TestPopulateAustralianPlayers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractbBaseClass.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/AbstractbBaseClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQLiteJDBC.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cricket/stats/database/SQLiteJDBC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -420,9 +420,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cricket/stats/dropbox/JavaDropbox.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cricket/stats/util/QaProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cricket/stats/utils/QaProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cricket/stats/database/SQLiteJDBC.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cricket/stats/utils/QaConstants.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cricket/stats/utils/QaFileReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cricket/stats/utils/QaCalendar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cricket/stats/database/SQLiteJDBC.java" />
+        <option value="$PROJECT_DIR$/0compileAndRun.sh" />
       </list>
     </option>
   </component>
@@ -442,6 +445,124 @@
             <path>
               <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
               <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cricket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cricket" type="462c0819:PsiDirectoryNode" />
+              <item name="stats" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cricket" type="462c0819:PsiDirectoryNode" />
+              <item name="stats" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cricket" type="462c0819:PsiDirectoryNode" />
+              <item name="stats" type="462c0819:PsiDirectoryNode" />
+              <item name="dropbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cricket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cricket" type="462c0819:PsiDirectoryNode" />
+              <item name="stats" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cricket" type="462c0819:PsiDirectoryNode" />
+              <item name="stats" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -469,7 +590,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="QaPr&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/test/java/com/cricket/stats/util/QaProperties.java&#10;QaEmail&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/main/java/com/cricket/stats/util/QaEmail.java&#10;QaEma&#9;PSI&#9;JAVA://com.cricket.stats.util.QaEmail&#10;QaReportProcessor&#9;PSI&#9;JAVA://com.cricket.stats.QaReportProcessor&#10;Qa&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/main/java/com/cricket/stats/util/QaProperties.java&#10;log4j.&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/main/resources/log4j.properties&#10;player&#9;PSI&#9;JAVA://com.cricket.stats.tests.AbstractbBaseClass#playerStatsJSON" />
+    <property name="SearchEverywhereHistoryKey" value="TestPopulateAustralianPlayers&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/test/java/com/cricket/stats/tests/TestPopulateAustralianPlayers.java&#10;QaPr&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/test/java/com/cricket/stats/util/QaProperties.java&#10;QaEmail&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/main/java/com/cricket/stats/util/QaEmail.java&#10;QaEma&#9;PSI&#9;JAVA://com.cricket.stats.util.QaEmail&#10;QaReportProcessor&#9;PSI&#9;JAVA://com.cricket.stats.QaReportProcessor&#10;Qa&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/main/java/com/cricket/stats/util/QaProperties.java&#10;log4j.&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/main/resources/log4j.properties&#10;player&#9;PSI&#9;JAVA://com.cricket.stats.tests.AbstractbBaseClass#playerStatsJSON" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.scala.compiler.ScalaCompileServerForm" />
@@ -498,20 +619,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.BuildCricketerDB [assemble]">
+  <component name="RunManager" selected="JUnit.TestPopulateAustralianPlayers">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="JavaDropbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cricket.stats.dropbox.JavaDropbox" />
-      <module name="BuildCricketerDB_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cricket.stats.dropbox.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="SQLiteJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cricket.stats.database.SQLiteJDBC" />
@@ -578,6 +688,33 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
+    <configuration name="TestPopulateAustralianPlayers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BuildCricketerDB_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cricket.stats.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cricket.stats.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.cricket.stats.tests.TestPopulateAustralianPlayers" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -622,18 +759,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.SQLiteJDBC" />
-      <item itemvalue="Application.JavaDropbox" />
       <item itemvalue="Gradle.BuildCricketerDB [assemble]" />
       <item itemvalue="Gradle.BuildCricketerDB [clean]" />
       <item itemvalue="Gradle.BuildCricketerDB [build]" />
+      <item itemvalue="JUnit.TestPopulateAustralianPlayers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPopulateAustralianPlayers" />
+        <item itemvalue="Application.SQLiteJDBC" />
         <item itemvalue="Gradle.BuildCricketerDB [assemble]" />
         <item itemvalue="Gradle.BuildCricketerDB [build]" />
         <item itemvalue="Gradle.BuildCricketerDB [clean]" />
-        <item itemvalue="Application.SQLiteJDBC" />
-        <item itemvalue="Application.JavaDropbox" />
       </list>
     </recent_temporary>
   </component>
@@ -671,7 +808,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32923368" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32923368" />
       <window_info id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -682,14 +819,14 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.50993377" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24576734" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28017476" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.26111636" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.17695248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31977293" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -707,7 +844,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -720,13 +857,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/AbstractbBaseClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/util/QaConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -738,9 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3585">
           <caret line="239" column="49" selection-start-line="239" selection-start-column="49" selection-end-line="239" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,9 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2955">
           <caret line="205" column="77" lean-forward="true" selection-start-line="205" selection-start-column="77" selection-end-line="205" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -814,20 +938,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/0compileAndRun.sh">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0compileAndRun.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/TestPopulateAustralianPlayers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testrail_scripts/testrail_reporter.py" />
     <entry file="file://$PROJECT_DIR$/PavilionService/package.json">
@@ -933,13 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/AbstractbBaseClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testrail_scripts/testrail_api.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -1035,9 +1138,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cricket/stats/utils/QaFileReader.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cricket/stats/utils/QaProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1045,23 +1145,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cricket/stats/utils/QaCalendar.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cricket/stats/database/SQLiteJDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cricket/stats/utils/QaCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cricket/stats/utils/QaFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="19" column="98" selection-start-line="19" selection-start-column="98" selection-end-line="19" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/TestPopulateWestIndiesPlayers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-484">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cricket/stats/database/SQLiteJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0compileAndRun.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="58" selection-start-line="6" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/TestPopulateAustralianPlayers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/AbstractbBaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

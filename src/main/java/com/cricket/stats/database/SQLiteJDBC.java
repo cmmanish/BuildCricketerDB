@@ -237,7 +237,7 @@ public class SQLiteJDBC {
                 String filePath = jsonDIR + File.separator + countryId + fileName;
                 sqliteJDBC.readJSON(filePath, countryId);
             }
-            log.info("" + sqliteJDBC.getRowCount());
+            log.info("Row Count" + sqliteJDBC.getRowCount());
             //sqliteJDBC.selectRow();
         } catch (Exception e) {
             e.printStackTrace();
