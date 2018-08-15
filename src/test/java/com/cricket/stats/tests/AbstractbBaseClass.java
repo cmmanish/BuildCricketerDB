@@ -1,6 +1,5 @@
 package com.cricket.stats.tests;
 
-import com.cricket.stats.utils.QaConstants;
 import com.cricket.stats.utils.QaProperties;
 
 import org.json.simple.JSONArray;
@@ -19,8 +18,8 @@ import java.io.IOException;
 import java.util.List;
 import java.util.logging.Logger;
 
-import static com.cricket.stats.utils.QaConstants.CRICBUZZ_BASE_URL;
 import static com.cricket.stats.utils.QaConstants.MAC_CHROME_DRIVER_LOCATION;
+import static com.cricket.stats.utils.QaConstants.PLAYER_JSON_LOCATION;
 
 /**
  * Created by mmadhusoodan on 8/20/15.
@@ -32,7 +31,6 @@ public class AbstractbBaseClass {
     protected static JSONObject playerStatsJSON = new org.json.simple.JSONObject();
     protected JSONObject eachPlayer = new JSONObject();
     protected static JSONArray resultsList = new JSONArray();
-    protected static String testrailDir = QaProperties.getJSONDir();
     protected String id = "", country = "", cbURL = "", name = "", tests = "0", inns = "0", fours = "0", sixes = "0";
     protected String runs = "0", highestScore = "0", batAvg = "0.00", strikeRate = "0.00", notOuts = "0", hundreds = "0", fifties = "0";
     protected static String fileName = "";
@@ -46,7 +44,7 @@ public class AbstractbBaseClass {
 
     public AbstractbBaseClass(String fileName, String countryName) {
         country = countryName;
-        filePath = testrailDir + File.separator + fileName;
+        filePath = PLAYER_JSON_LOCATION + File.separator + fileName;
         file = new File(filePath);
         try {
             if (!file.exists()) {
@@ -113,7 +111,7 @@ public class AbstractbBaseClass {
         }
     }
 
-    public String getBattingStats(String cbURL) {
+    public void extractBattingStats(String cbURL) {
         try {
             //driver.navigate().to(CRICBUZZ_BASE_URL);
             driver.navigate().to(cbURL);
@@ -135,10 +133,8 @@ public class AbstractbBaseClass {
             fours = battingStats.get(33).getText();
             sixes = battingStats.get(34).getText();
 
-            return name;
         } catch (Exception e) {
             e.printStackTrace();
-            return "";
         }
     }
 }

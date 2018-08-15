@@ -1,16 +1,16 @@
 package service;
 
-import com.cricket.stats.dropbox.UploadToDropbox;
+import com.cricket.stats.dropbox.DropboxAPI;
 
 import org.junit.Test;
 
-public class uploadToDropbox {
+public class TestUploadToDropbox {
 
     @Test
-    public void testPlayerMV() {
+    public void uploadNow() {
 
-        UploadToDropbox uploadToDropbox = new UploadToDropbox();
-        uploadToDropbox.main();
+        DropboxAPI dropboxAPI = new DropboxAPI();
+        dropboxAPI.upload();
 
     }
 }

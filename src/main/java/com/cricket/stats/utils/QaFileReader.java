@@ -12,6 +12,8 @@ import java.util.List;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
+import static com.cricket.stats.utils.QaConstants.PLAYER_JSON_LOCATION;
+
 /**
  * Created by mmadhusoodan on 4/15/15.
  */
@@ -19,17 +21,14 @@ public class QaFileReader {
 
     protected static Logger log = LogManager.getLogManager().getLogger(String.valueOf(QaFileReader.class));
 
-    private static String testrailDir = QaProperties.getJSONDir();
     String fileName = QaConstants.IND_PLAYER_STATS_FILE_JSON;
-    String filePath = testrailDir + File.separator + fileName;
+    String filePath = PLAYER_JSON_LOCATION + File.separator + fileName;
     File file = new File(filePath);
     JSONParser parser = new JSONParser();
     List<String> testcaseList = new ArrayList<String>();
 
     public List<String> getFailedTestCaseListFromTestrailsJSON() {
-        try
-
-        {
+        try {
             Object obj = parser.parse(new FileReader(file));
             JSONObject jsonObject = (JSONObject) obj;
             JSONArray testcaseArray = (JSONArray) jsonObject.get("resultsList");

@@ -11,7 +11,6 @@ public class QaProperties { // singleton
 
     public static Properties props = getProperty();
 
-
     private QaProperties() {
     }
 
@@ -26,8 +25,8 @@ public class QaProperties { // singleton
         Properties props = new Properties();
         try {
             FileInputStream in;
-            String address = "src/main/resources/local.properties";
-//            log.info("Looking for property file: " + address);
+            String address = "src/upload/resources/local.properties";
+            log.info("Looking for property file: " + address);
             File fileProps = new File(address);
             if (fileProps.exists()) {
                 in = new FileInputStream(fileProps);
@@ -43,55 +42,4 @@ public class QaProperties { // singleton
         }
         return props;
     }
-
-    public static String getBrowser() throws NullPointerException {
-        if (props.getProperty("portal.browser") == null) {
-            return "firefox";
-        } else {
-            return props.getProperty("portal.browser").trim();
-        }
-    }
-
-
-    public static String getScreenShotsDir() throws NullPointerException {
-        return props.getProperty("screenshots.root.folder").trim();
-    }
-
-    public static String getReportsDir() throws NullPointerException {
-        return props.getProperty("reports.root.folder").trim();
-    }
-
-    public static String getJSONDir() throws NullPointerException {
-        return props.getProperty("testrail_scripts.root.folder").trim();
-    }
-
-    public static boolean isBrowserStack() {
-
-        return "true".equalsIgnoreCase(props.getProperty("browserStack"));
-    }
-
-    public static boolean isFirefox() {
-        return "firefox".equals(getBrowser());
-    }
-
-    public static boolean isChrome() {
-        return "chrome".equals(getBrowser());
-    }
-
-    public static boolean isIE() {
-        return "ie".equals(getBrowser());
-    }
-
-    public static boolean isSafari() {
-        return "safari".equals(getBrowser());
-    }
-
-//    public static boolean isSafari() {
-//        return "safari".equals(getBrowser());
-//    }
-
-    public static boolean isAndroidChrome() {
-        return "AndroidChrome".equals(getBrowser());
-    }
-
 }

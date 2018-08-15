@@ -14,11 +14,13 @@ public interface QaConstants {
     public static final String MAC_CHROME_DRIVER_LOCATION = "src/main/resources/chromedriver";
     public static final String MAC_SAFARI_DRIVER_LOCATION = "src/main/resources/SafariDriver.safariextz";
     public static final String WIN_IE_DRIVER_LOCATION = "src/main/resources/IEDriverServer.exe";
+    public static final String CRICKET_DATABASE_LOCATION = "src/main/resources/CRICKET.db";
     public static final String IND_PLAYER_STATS_FILE_JSON = "IndPlayerStats.json";
     public static final String SL_PLAYER_STATS_FILE_JSON = "SLPlayerStats.json";
     public static final String AUS_PLAYER_STATS_FILE_JSON = "AusPlayerStats.json";
+    public static final String PLAYER_STATS_FILE_JSON = "PlayerStats.json";
     public static final String CRICBUZZ_BASE_URL = "http://www.cricbuzz.com";
     public static final String CRICBUZZ_PROFILE_BASE_URL = "http://www.cricbuzz.com/profiles/";
-
+    public static final String PLAYER_JSON_LOCATION = "PavilionService/json";
 
 }

@@ -1,12 +1,9 @@
 package com.cricket.stats.database;
 
-import com.cricket.stats.utils.QaProperties;
-
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
-import java.io.File;
 import java.io.FileReader;
 import java.sql.*;
 import java.util.logging.Logger;
@@ -16,11 +13,11 @@ public class SQLiteJDBC {
 
     public static String[] countryList = {"IND", "AUS", "ENG", "PAK", "SL", "SA", "NZ", "WI"};
     protected static String fileName = "PlayerStats.json";
-    protected static String jsonDIR = QaProperties.getJSONDir();
+
     private String JDBCConnection = "org.sqlite.JDBC";
     private String dbConectionString = "jdbc:sqlite:PavilionService/database/CRICKET.db";
-    protected String playerName, cbURL, country = "";
-    protected int id, tests, innings, runs, highestScore, notOuts, hundreds, fifties, fours, sixes = 0;
+    protected String playerName, country = "";
+    protected int cricbuzzId, tests, innings, runs, highestScore, notOuts, hundreds, fifties, fours, sixes = 0;
     protected double batAvg, strikeRate = 0.00;
 
     public void dbConnect() {
@@ -47,7 +44,7 @@ public class SQLiteJDBC {
 
                 stmt = c.createStatement();
                 String sql = "CREATE TABLE PLAYER " +
-                        "(id INTEGER PRIMARY KEY    NOT NULL," +
+                        "(cricbuzzId INTEGER PRIMARY KEY    NOT NULL," +
                         " player_name           TEXT    NOT NULL, " +
                         " country           TEXT    NOT NULL, " +
                         " tests            INTEGER     NOT NULL, " +
@@ -82,11 +79,12 @@ public class SQLiteJDBC {
             Class.forName(JDBCConnection);
             conn = DriverManager.getConnection(dbConectionString);
             conn.setAutoCommit(false);
-            String query = "INSERT OR IGNORE INTO PLAYER (id, player_name, tests, innings, runs, highest_score, bat_avg, strike_rate, not_outs, hundreds, fifties, sixes, fours, cb_url,country )" +
+            String query = "INSERT OR IGNORE INTO PLAYER (cricbuzzId, player_name, tests, innings, runs, highest_score, bat_avg, " +
+                    "strike_rate, not_outs, hundreds, fifties, sixes, fours, cb_url,country )" +
                     " VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);";
 
             PreparedStatement stmt = conn.prepareStatement(query);
-            stmt.setInt(1, id);
+            stmt.setInt(1, cricbuzzId);
             stmt.setString(2, playerName);
             stmt.setInt(3, tests);
             stmt.setInt(4, innings);
@@ -99,13 +97,12 @@ public class SQLiteJDBC {
             stmt.setInt(11, fifties);
             stmt.setInt(12, sixes);
             stmt.setInt(13, fours);
-            stmt.setString(14, cbURL);
-            stmt.setString(15, country);
+            stmt.setString(14, country);
 
             stmt.executeUpdate();
             stmt.close();
             conn.commit();
-            //conn.close();
+            conn.close();
             log.info("Inserted " + playerName + " successfully");
             flag = true;
         } catch (java.sql.SQLException sql) {
@@ -116,7 +113,27 @@ public class SQLiteJDBC {
         return flag;
     }
 
-    public void deleteDB(String str) {
+    public void dropTable() {
+        Connection c = null;
+        Statement stmt = null;
+        try {
+            Class.forName(JDBCConnection);
+            c = DriverManager.getConnection(dbConectionString);
+            c.setAutoCommit(false);
+
+            stmt = c.createStatement();
+            String sql = "DROP TABLE PLAYER;";
+            int a = stmt.executeUpdate(sql);
+            c.commit();
+            stmt.close();
+            c.close();
+        } catch (Exception e) {
+            System.err.println(e.getClass().getName() + ": " + e.getMessage());
+        }
+        log.info("dropTable Operation done");
+    }
+
+    public void deleteAllRow() {
         Connection c = null;
         Statement stmt = null;
         try {
@@ -133,7 +150,7 @@ public class SQLiteJDBC {
         } catch (Exception e) {
             System.err.println(e.getClass().getName() + ": " + e.getMessage());
         }
-        log.info("deleteDB Operation done");
+        log.info("deleteAllRow Operation done");
     }
 
     public int getRowCount() {
@@ -200,7 +217,7 @@ public class SQLiteJDBC {
             for (int i = 0; i < playerList.size(); i++) {
                 JSONObject eachPlayer = (JSONObject) playerList.get(i);
 
-                id = Integer.parseInt(eachPlayer.get("id").toString());
+                cricbuzzId = Integer.parseInt(eachPlayer.get("cricbuzzId").toString());
                 country = eachPlayer.get("country").toString();
                 playerName = eachPlayer.get("playerName").toString();
 
@@ -217,7 +234,6 @@ public class SQLiteJDBC {
                 fifties = Integer.parseInt(eachPlayer.get("fifties").toString());
                 sixes = Integer.parseInt(eachPlayer.get("sixes").toString());
                 fours = Integer.parseInt(eachPlayer.get("fours").toString());
-                cbURL = eachPlayer.get("cbURL").toString();
 
                 insertIntoDatabase(countryId);
             }
@@ -225,23 +241,6 @@ public class SQLiteJDBC {
         } catch (Exception e) {
             e.printStackTrace();
             return false;
-        }
-    }
-
-    public static void main(String args[]) {
-
-        SQLiteJDBC sqliteJDBC = new SQLiteJDBC();
-        try {
-            sqliteJDBC.dbConnect();
-            sqliteJDBC.deleteDB("");
-            for (String countryId : countryList) {
-                String filePath = jsonDIR + File.separator + countryId + fileName;
-                sqliteJDBC.readJSON(filePath, countryId);
-            }
-            log.info("Row Count" + sqliteJDBC.getRowCount());
-            //sqliteJDBC.selectRow();
-        } catch (Exception e) {
-            e.printStackTrace();
         }
     }
 }

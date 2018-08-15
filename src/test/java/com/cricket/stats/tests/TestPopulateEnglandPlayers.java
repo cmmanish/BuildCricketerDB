@@ -23,76 +23,76 @@ public class TestPopulateEnglandPlayers extends AbstractbBaseClass {
     public void T1testPlayerMV() {
 
         cbURL = CRICBUZZ_PROFILE_BASE_URL+"6511/";
-        getBattingStats(cbURL);
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T2testPlayerSD() {
 
         cbURL = CRICBUZZ_PROFILE_BASE_URL+"488/";
-        getBattingStats(cbURL);
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T3testPlayerLR() {
 
         cbURL = CRICBUZZ_PROFILE_BASE_URL+"385/";
-        getBattingStats(cbURL);
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T4testPlayerCP() {
 
         cbURL = CRICBUZZ_PROFILE_BASE_URL+"8019/";
-        getBattingStats(cbURL);
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T5testPlayerVK() {
 
         cbURL = CRICBUZZ_PROFILE_BASE_URL+"6507/";
-        getBattingStats(cbURL);
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T6testPlayerAR() {
 
         cbURL = CRICBUZZ_PROFILE_BASE_URL+"6557/";
-        getBattingStats(cbURL);
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T7testPlayerSB() {
 
         cbURL = CRICBUZZ_PROFILE_BASE_URL+"2258/";
-        getBattingStats(cbURL);
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T8testPlayerRS() {
 
         cbURL = CRICBUZZ_PROFILE_BASE_URL+"8383/";
-        getBattingStats(cbURL);
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T9testPlayerIS() {
 
         cbURL = CRICBUZZ_PROFILE_BASE_URL+"6692/";
-        getBattingStats(cbURL);
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T10testPlayerMS() {
 
         cbURL = CRICBUZZ_PROFILE_BASE_URL+"554/";
-        getBattingStats(cbURL);
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T11testPlayerBK() {
 
         cbURL = CRICBUZZ_PROFILE_BASE_URL+"6317/";
-        getBattingStats(cbURL);
+        extractBattingStats(cbURL);
     }
 }
