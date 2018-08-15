@@ -1,8 +1,16 @@
 package com.cricket.stats.tests;
 
+import com.cricket.stats.utils.QaConstants;
+
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.safari.SafariDriver;
 
 /**
  * Created by mmadhusoodan on 1/13/2015.
@@ -11,11 +19,32 @@ import org.junit.runners.MethodSorters;
 public class TestPopulateIndiaPlayers extends AbstractbBaseClass {
 
     static String country = "IND";
-    static String fileName = country +"PlayerStats.json";
+    static String fileName = country + "PlayerStats.json";
 
     public TestPopulateIndiaPlayers() {
         super(TestPopulateIndiaPlayers.fileName, TestPopulateIndiaPlayers.country);
     }
+
+    @Test
+    public void testGoogleSearch() {
+
+        try {// Optional, if not specified, WebDriver will search your path for chromedriver.
+            System.setProperty("webdriver.chrome.driver", QaConstants.MAC_CHROME_DRIVER_LOCATION);
+
+            WebDriver driver = new SafariDriver();
+            //WebDriver driver = new RemoteWebDriver("http://127.0.0.1:9515", DesiredCapabilities.safari());
+            driver.get("http://www.google.com/xhtml");
+            Thread.sleep(5000);  // Let the user actually see something!
+            WebElement searchBox = driver.findElement(By.name("q"));
+            searchBox.sendKeys("ChromeDriver");
+            searchBox.submit();
+            Thread.sleep(5000);  // Let the user actually see something!
+            driver.quit();
+        } catch (Exception e) {
+            e.getMessage();
+        }
+    }
+
 
     @Test
     public void T1testPlayerMV() {

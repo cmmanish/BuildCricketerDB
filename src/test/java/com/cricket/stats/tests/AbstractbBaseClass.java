@@ -2,6 +2,7 @@ package com.cricket.stats.tests;
 
 import com.cricket.stats.utils.QaConstants;
 import com.cricket.stats.utils.QaProperties;
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.junit.After;
@@ -23,7 +24,7 @@ import java.util.logging.Logger;
  */
 public class AbstractbBaseClass {
 
-    public static Logger log = Logger.getLogger(String.valueOf(TestPopulateIndiaPlayers.class));
+    public static Logger log = Logger.getLogger(String.valueOf(AbstractbBaseClass.class));
     protected String baseURL = "http://www.cricbuzz.com/";
     protected static JSONObject playerStatsJSON = new org.json.simple.JSONObject();
     protected JSONObject eachPlayer = new JSONObject();
@@ -36,7 +37,6 @@ public class AbstractbBaseClass {
     protected static File file = null;
     protected static FileWriter fileWriter = null;
     protected static WebDriver driver = null;
-
 
     public AbstractbBaseClass() {
     }
@@ -118,27 +118,26 @@ public class AbstractbBaseClass {
             driver.navigate().to(baseURL);
             driver.navigate().to(cbURL);
             id = cbURL.substring(33, cbURL.length() - 1);
-//            name = driver.findElement(By.className("cb-profile-player-name")).getText();
-            //WebElement element = driver.findElement(By.id("Tests_batting"));
-            List<WebElement> battingStats = driver.findElements(By.cssSelector(".cb-stats-table .text-right"));
 
-            tests = battingStats.get(0).getText();
-            inns = battingStats.get(1).getText();
-            notOuts = battingStats.get(2).getText();
-            runs = battingStats.get(3).getText();
-            highestScore = battingStats.get(4).getText();
-            batAvg = battingStats.get(5).getText();
-            strikeRate = battingStats.get(6).getText();
+            tests = driver.findElement(By.cssSelector(".cb-plyr-tbody.text-right")).getText();
 
-            hundreds = battingStats.get(8).getText();
-            fifties = battingStats.get(10).getText();
+            List<WebElement> battingStats = driver.findElements(By.cssSelector(".text-right"));
+            inns = battingStats.get(23).getText();
+            notOuts = battingStats.get(24).getText();
+            runs = battingStats.get(25).getText();
+            highestScore = battingStats.get(26).getText();
+            batAvg = battingStats.get(27).getText();
+            strikeRate = battingStats.get(29).getText();
 
-            fours = battingStats.get(11).getText();
-            sixes = battingStats.get(12).getText();
+            hundreds = battingStats.get(30).getText();
+            fifties = battingStats.get(32).getText();
+
+            fours = battingStats.get(33).getText();
+            sixes = battingStats.get(34).getText();
 
             return name;
-        } catch (Exception ne) {
-            ne.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
             return "";
         }
     }

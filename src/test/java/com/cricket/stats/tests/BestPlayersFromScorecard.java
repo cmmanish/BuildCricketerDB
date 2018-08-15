@@ -26,12 +26,12 @@ public class BestPlayersFromScorecard extends AbstractbBaseClass {
 
     public void getPlaying11(String match) {
         try {
-            driver.navigate().to(baseURL);
-            driver.navigate().to(match);
-            List<WebElement> battingStats = driver.findElements(By.cssSelector(".fixedwidth .pName1 .left"));
-            log.info(battingStats.get(0).getText());
-
-            driver.close();
+//            driver.navigate().to(baseURL);
+//            driver.navigate().to(match);
+//            List<WebElement> battingStats = driver.findElements(By.cssSelector(".fixedwidth .pName1 .left"));
+//            log.info(battingStats.get(0).getText());
+//
+//            driver.close();
         } catch (Exception ne) {
             ne.printStackTrace();
         }

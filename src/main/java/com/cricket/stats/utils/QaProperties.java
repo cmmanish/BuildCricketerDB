@@ -82,7 +82,9 @@ public class QaProperties { // singleton
         return "ie".equals(getBrowser());
     }
 
-    public static boolean isSafari() { return "safari".equals(getBrowser()); }
+    public static boolean isSafari() {
+        return "safari".equals(getBrowser());
+    }
 
 //    public static boolean isSafari() {
 //        return "safari".equals(getBrowser());
