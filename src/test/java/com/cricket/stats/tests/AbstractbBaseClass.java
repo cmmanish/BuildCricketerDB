@@ -19,6 +19,9 @@ import java.io.IOException;
 import java.util.List;
 import java.util.logging.Logger;
 
+import static com.cricket.stats.utils.QaConstants.CRICBUZZ_BASE_URL;
+import static com.cricket.stats.utils.QaConstants.MAC_CHROME_DRIVER_LOCATION;
+
 /**
  * Created by mmadhusoodan on 8/20/15.
  */
@@ -60,7 +63,7 @@ public class AbstractbBaseClass {
 
     public static WebDriver getWebDriver() {
         try {
-            System.setProperty("webdriver.chrome.driver", QaConstants.MAC_CHROME_DRIVER_LOCATION);
+            System.setProperty("webdriver.chrome.driver", MAC_CHROME_DRIVER_LOCATION);
             driver = new ChromeDriver();
         } catch (Exception e) {
             e.printStackTrace();
@@ -88,24 +91,21 @@ public class AbstractbBaseClass {
 
     @After
     public void afterMethod() {
-
         try {
-            eachPlayer.put("cbURL", cbURL);
+            eachPlayer.put("cricbuzzId", id);
             eachPlayer.put("country", country);
             eachPlayer.put("playerName", name);
-            eachPlayer.put("highestScore", highestScore);
+            eachPlayer.put("tests", tests);
+            eachPlayer.put("innings", inns);
+            eachPlayer.put("runs", runs);
             eachPlayer.put("batAvg", batAvg);
             eachPlayer.put("strikeRate", strikeRate);
-            eachPlayer.put("runs", runs);
-            eachPlayer.put("innings", inns);
-            eachPlayer.put("tests", tests);
+            eachPlayer.put("highestScore", highestScore);
             eachPlayer.put("notOuts", notOuts);
             eachPlayer.put("hundreds", hundreds);
             eachPlayer.put("fifties", fifties);
-            eachPlayer.put("fours", fours);
             eachPlayer.put("sixes", sixes);
-            eachPlayer.put("id", id);
-
+            eachPlayer.put("fours", fours);
             resultsList.add(eachPlayer);
 
         } catch (Exception e) {
@@ -115,10 +115,10 @@ public class AbstractbBaseClass {
 
     public String getBattingStats(String cbURL) {
         try {
-            driver.navigate().to(baseURL);
+            //driver.navigate().to(CRICBUZZ_BASE_URL);
             driver.navigate().to(cbURL);
             id = cbURL.substring(33, cbURL.length() - 1);
-
+            name = driver.findElement(By.cssSelector(".cb-font-40")).getText();
             tests = driver.findElement(By.cssSelector(".cb-plyr-tbody.text-right")).getText();
 
             List<WebElement> battingStats = driver.findElements(By.cssSelector(".text-right"));

@@ -4,7 +4,7 @@
 ./gradlew clean assemble
 
 #running a single Testsuite
-./gradlew -Dtest.single=TestPopulateAustralianPlayers test
-#./gradlew -Dtest.single=TestAccountSettings test --rerun-tasks
+./gradlew -Dtest.single=TestPopulate*Players test
 
-#./gradlew -Dtest.single=TestSignIn test
+
+#./gradlew -Dtest.single=TestPopulateAustralianPlayers clean test
