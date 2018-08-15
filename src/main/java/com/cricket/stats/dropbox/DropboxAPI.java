@@ -1,5 +1,6 @@
 package com.cricket.stats.dropbox;
 
+import com.cricket.stats.utils.QaProperties;
 import com.dropbox.core.DbxRequestConfig;
 import com.dropbox.core.v2.DbxClientV2;
 import com.dropbox.core.v2.DbxFiles;
@@ -9,14 +10,16 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.logging.Logger;
 
-public class JavaDropbox {
+public class UploadToDropbox {
 
-    public static Logger log = Logger.getLogger(String.valueOf(JavaDropbox.class));
-    static final String ACCESS_TOKEN = "vLcLAbtJ96oAAAAAAAABRKq67S1P6DO4RUxkdzAyYiXzBEKn9Hrkna_Qr_-VELFc";
+    public static Logger log = Logger.getLogger(String.valueOf(UploadToDropbox.class));
+    static String ACCESS_TOKEN = "";
 
-    public static void main(String args[]) {
+    public UploadToDropbox() {
+        ACCESS_TOKEN = QaProperties.getProperty().getProperty("access_token");
+    }
 
-        String address = "src/main/resources/local.properties";
+    public void main() {
         try {
             DbxRequestConfig config = new DbxRequestConfig("dropbox/java-tutorial", "en_US");
             DbxClientV2 client = new DbxClientV2(config, ACCESS_TOKEN);
@@ -24,11 +27,10 @@ public class JavaDropbox {
             InputStream in = new FileInputStream("src/main/resources/CRICKET.db");
             DbxFiles.FileMetadata metadata = client.files.uploadBuilder("/database/CRICKET.db").run(in);
 
-            System.out.print("CRICKET.db Uploaded Size: " + metadata.size);
-
+            log.info(account.email);
+            log.info(metadata.size + " Bytes CRICKET.db Uploaded ");
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
 }
