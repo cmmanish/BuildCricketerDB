@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BuildCricketerDB.iml" filepath="$PROJECT_DIR$/BuildCricketerDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BuildCricketerDB_main.iml" filepath="$PROJECT_DIR$/.idea/modules/BuildCricketerDB_main.iml" group="BuildCricketerDB" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BuildCricketerDB_test.iml" filepath="$PROJECT_DIR$/.idea/modules/BuildCricketerDB_test.iml" group="BuildCricketerDB" />
     </modules>
   </component>
 </project>

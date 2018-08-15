@@ -1,10 +1,13 @@
 #!/bin/sh
 
 #Clean and Assemble the Project
-gradle clean assemble
+./gradlew clean assemble
 
-#running a single Testsuite
-gradle -Dtest.single=TestPopulateAustralianPlayers test
-#./gradlew -Dtest.single=TestAccountSettings test --rerun-tasks
+#Populate the JSON files for each Country
+./gradlew -Dtest.single=TestPopulate*Players test
 
-#./gradlew -Dtest.single=TestSignIn test
+#Insert all the JSON to Cricket.db
+./gradlew -Dtest.single=TestPopulateDatabase#populateNow clean test
+
+#upload the Cricket.db to Dropbox
+./gradlew -Dtest.single=TestUploadToDropbox clean test

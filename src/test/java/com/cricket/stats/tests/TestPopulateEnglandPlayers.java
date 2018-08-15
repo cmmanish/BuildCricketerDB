@@ -4,6 +4,8 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
+import static com.cricket.stats.utils.QaConstants.CRICBUZZ_PROFILE_BASE_URL;
+
 /**
  * Created by mmadhusoodan on 1/13/2015.
  */
@@ -20,77 +22,77 @@ public class TestPopulateEnglandPlayers extends AbstractbBaseClass {
     @Test
     public void T1testPlayerMV() {
 
-        cbURL = "http://www.cricbuzz.com/profiles/6511/";
-        getBattingStats(cbURL);
+        cbURL = CRICBUZZ_PROFILE_BASE_URL+"6511/";
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T2testPlayerSD() {
 
-        cbURL = "http://www.cricbuzz.com/profiles/488/";
-        getBattingStats(cbURL);
+        cbURL = CRICBUZZ_PROFILE_BASE_URL+"488/";
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T3testPlayerLR() {
 
-        cbURL = "http://www.cricbuzz.com/profiles/385/";
-        getBattingStats(cbURL);
+        cbURL = CRICBUZZ_PROFILE_BASE_URL+"385/";
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T4testPlayerCP() {
 
-        cbURL = "http://www.cricbuzz.com/profiles/8019/";
-        getBattingStats(cbURL);
+        cbURL = CRICBUZZ_PROFILE_BASE_URL+"8019/";
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T5testPlayerVK() {
 
-        cbURL = "http://www.cricbuzz.com/profiles/6507/";
-        getBattingStats(cbURL);
+        cbURL = CRICBUZZ_PROFILE_BASE_URL+"6507/";
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T6testPlayerAR() {
 
-        cbURL = "http://www.cricbuzz.com/profiles/6557/";
-        getBattingStats(cbURL);
+        cbURL = CRICBUZZ_PROFILE_BASE_URL+"6557/";
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T7testPlayerSB() {
 
-        cbURL = "http://www.cricbuzz.com/profiles/2258/";
-        getBattingStats(cbURL);
+        cbURL = CRICBUZZ_PROFILE_BASE_URL+"2258/";
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T8testPlayerRS() {
 
-        cbURL = "http://www.cricbuzz.com/profiles/8383/";
-        getBattingStats(cbURL);
+        cbURL = CRICBUZZ_PROFILE_BASE_URL+"8383/";
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T9testPlayerIS() {
 
-        cbURL = "http://www.cricbuzz.com/profiles/6692/";
-        getBattingStats(cbURL);
+        cbURL = CRICBUZZ_PROFILE_BASE_URL+"6692/";
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T10testPlayerMS() {
 
-        cbURL = "http://www.cricbuzz.com/profiles/554/";
-        getBattingStats(cbURL);
+        cbURL = CRICBUZZ_PROFILE_BASE_URL+"554/";
+        extractBattingStats(cbURL);
     }
 
     @Test
     public void T11testPlayerBK() {
 
-        cbURL = "http://www.cricbuzz.com/profiles/6317/";
-        getBattingStats(cbURL);
+        cbURL = CRICBUZZ_PROFILE_BASE_URL+"6317/";
+        extractBattingStats(cbURL);
     }
 }

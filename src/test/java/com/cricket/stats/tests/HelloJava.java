@@ -8,13 +8,12 @@ import org.junit.Test;
 public class HelloJava {
 
     @Test
-    public void Hello(){
+    public void Hello() {
 
         String cbURL = "http://www.cricbuzz.com/profiles/7952/";
         int len = cbURL.length();
-        String id = cbURL.substring(33,len-1);
+        String id = cbURL.substring(33, len - 1);
         System.out.println(id);
 
     }
-
 }

@@ -21,7 +21,7 @@ public class JSON_JDBC {
 //
 //                    JSONObject eachPlayer = (JSONObject) playerList.get(i);
 //
-//                    id = Integer.parseInt(eachPlayer.get("id").toString());
+//                    cricbuzzId = Integer.parseInt(eachPlayer.get("cricbuzzId").toString());
 //                    country = eachPlayer.get("country").toString();
 //                    playerName = eachPlayer.get("playerName").toString();
 //

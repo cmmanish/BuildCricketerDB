@@ -1,8 +1,7 @@
 package com.cricket.stats.tests;
 
-import com.cricket.stats.util.QaConstants;
-import com.cricket.stats.util.QaProperties;
-import org.apache.log4j.Logger;
+import com.cricket.stats.utils.QaProperties;
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.junit.After;
@@ -17,18 +16,21 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
+import java.util.logging.Logger;
+
+import static com.cricket.stats.utils.QaConstants.MAC_CHROME_DRIVER_LOCATION;
+import static com.cricket.stats.utils.QaConstants.PLAYER_JSON_LOCATION;
 
 /**
  * Created by mmadhusoodan on 8/20/15.
  */
 public class AbstractbBaseClass {
 
-    public static Logger log = Logger.getLogger(TestPopulateIndiaPlayers.class);
+    public static Logger log = Logger.getLogger(String.valueOf(AbstractbBaseClass.class));
     protected String baseURL = "http://www.cricbuzz.com/";
     protected static JSONObject playerStatsJSON = new org.json.simple.JSONObject();
     protected JSONObject eachPlayer = new JSONObject();
     protected static JSONArray resultsList = new JSONArray();
-    protected static String testrailDir = QaProperties.getJSONDir();
     protected String id = "", country = "", cbURL = "", name = "", tests = "0", inns = "0", fours = "0", sixes = "0";
     protected String runs = "0", highestScore = "0", batAvg = "0.00", strikeRate = "0.00", notOuts = "0", hundreds = "0", fifties = "0";
     protected static String fileName = "";
@@ -37,13 +39,12 @@ public class AbstractbBaseClass {
     protected static FileWriter fileWriter = null;
     protected static WebDriver driver = null;
 
-
     public AbstractbBaseClass() {
     }
 
     public AbstractbBaseClass(String fileName, String countryName) {
         country = countryName;
-        filePath = testrailDir + File.separator + fileName;
+        filePath = PLAYER_JSON_LOCATION + File.separator + fileName;
         file = new File(filePath);
         try {
             if (!file.exists()) {
@@ -60,7 +61,7 @@ public class AbstractbBaseClass {
 
     public static WebDriver getWebDriver() {
         try {
-            System.setProperty("webdriver.chrome.driver", QaConstants.MAC_CHROME_DRIVER_LOCATION);
+            System.setProperty("webdriver.chrome.driver", MAC_CHROME_DRIVER_LOCATION);
             driver = new ChromeDriver();
         } catch (Exception e) {
             e.printStackTrace();
@@ -88,24 +89,21 @@ public class AbstractbBaseClass {
 
     @After
     public void afterMethod() {
-
         try {
-            eachPlayer.put("cbURL", cbURL);
+            eachPlayer.put("cricbuzzId", id);
             eachPlayer.put("country", country);
             eachPlayer.put("playerName", name);
-            eachPlayer.put("highestScore", highestScore);
+            eachPlayer.put("tests", tests);
+            eachPlayer.put("innings", inns);
+            eachPlayer.put("runs", runs);
             eachPlayer.put("batAvg", batAvg);
             eachPlayer.put("strikeRate", strikeRate);
-            eachPlayer.put("runs", runs);
-            eachPlayer.put("innings", inns);
-            eachPlayer.put("tests", tests);
+            eachPlayer.put("highestScore", highestScore);
             eachPlayer.put("notOuts", notOuts);
             eachPlayer.put("hundreds", hundreds);
             eachPlayer.put("fifties", fifties);
-            eachPlayer.put("fours", fours);
             eachPlayer.put("sixes", sixes);
-            eachPlayer.put("id", id);
-
+            eachPlayer.put("fours", fours);
             resultsList.add(eachPlayer);
 
         } catch (Exception e) {
@@ -113,33 +111,30 @@ public class AbstractbBaseClass {
         }
     }
 
-    public String getBattingStats(String cbURL) {
+    public void extractBattingStats(String cbURL) {
         try {
-            driver.navigate().to(baseURL);
+            //driver.navigate().to(CRICBUZZ_BASE_URL);
             driver.navigate().to(cbURL);
             id = cbURL.substring(33, cbURL.length() - 1);
-//            name = driver.findElement(By.className("cb-profile-player-name")).getText();
-            //WebElement element = driver.findElement(By.id("Tests_batting"));
-            List<WebElement> battingStats = driver.findElements(By.cssSelector(".cb-stats-table .text-right"));
+            name = driver.findElement(By.cssSelector(".cb-font-40")).getText();
+            tests = driver.findElement(By.cssSelector(".cb-plyr-tbody.text-right")).getText();
 
-            tests = battingStats.get(0).getText();
-            inns = battingStats.get(1).getText();
-            notOuts = battingStats.get(2).getText();
-            runs = battingStats.get(3).getText();
-            highestScore = battingStats.get(4).getText();
-            batAvg = battingStats.get(5).getText();
-            strikeRate = battingStats.get(6).getText();
+            List<WebElement> battingStats = driver.findElements(By.cssSelector(".text-right"));
+            inns = battingStats.get(23).getText();
+            notOuts = battingStats.get(24).getText();
+            runs = battingStats.get(25).getText();
+            highestScore = battingStats.get(26).getText();
+            batAvg = battingStats.get(27).getText();
+            strikeRate = battingStats.get(29).getText();
 
-            hundreds = battingStats.get(8).getText();
-            fifties = battingStats.get(10).getText();
+            hundreds = battingStats.get(30).getText();
+            fifties = battingStats.get(32).getText();
 
-            fours = battingStats.get(11).getText();
-            sixes = battingStats.get(12).getText();
+            fours = battingStats.get(33).getText();
+            sixes = battingStats.get(34).getText();
 
-            return name;
-        } catch (Exception ne) {
-            ne.printStackTrace();
-            return "";
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }
