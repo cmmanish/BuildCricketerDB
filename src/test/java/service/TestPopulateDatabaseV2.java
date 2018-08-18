@@ -44,7 +44,7 @@ public class TestPopulateDatabaseV2 {
     public void TestShowTableV2() {
         try {
             SQLiteJDBCV2 sqliteJDBCV2 = new SQLiteJDBCV2();
-            log.info(sqliteJDBCV2.selectRow() + "");
+            log.info(sqliteJDBCV2.showTable() + "");
         } catch (Exception e) {
             e.getLocalizedMessage();
         }
@@ -53,11 +53,11 @@ public class TestPopulateDatabaseV2 {
     @Test
     public void TestDropTableV2() {
         SQLiteJDBCV2 sqliteJDBCV2 = new SQLiteJDBCV2();
-        sqliteJDBCV2.dropTable();
+        Assert.assertEquals(true,sqliteJDBCV2.dropTable());
     }
 
     @Test
-    public void TestgetRowCountV2() {
+    public void TestGetRowCountV2() {
         SQLiteJDBCV2 sqliteJDBCV2 = new SQLiteJDBCV2();
         log.info("Row Count " + sqliteJDBCV2.getRowCount());
     }

@@ -47,17 +47,13 @@ public class SQLiteJDBCV2 {
                         " player_name           TEXT    NOT NULL, " +
                         " country           TEXT    NOT NULL, " +
                         " tests            INTEGER     NOT NULL, " +
-                        " innings            INTEGER     NOT NULL, " +
                         " runs            INTEGER     NOT NULL, " +
                         " highest_score            INTEGER     NOT NULL, " +
                         " bat_avg            REAL     NOT NULL, " +
-                        " strike_rate            REAL     NOT NULL, " +
-                        " not_outs            INTEGER     NOT NULL, " +
                         " hundreds            INTEGER     NOT NULL, " +
                         " fifties            INTEGER     NOT NULL, " +
                         " sixes            INTEGER     NOT NULL, " +
-                        " fours            INTEGER     NOT NULL, " +
-                        " cb_url            TEXT     NOT NULL) ";
+                        " fours            INTEGER     NOT NULL )" ;
                 log.info("sql: " + sql);
                 stmt.executeUpdate(sql);
                 stmt.close();
@@ -78,25 +74,22 @@ public class SQLiteJDBCV2 {
             Class.forName(JDBCConnection);
             conn = DriverManager.getConnection(dbConectionString);
             conn.setAutoCommit(false);
-            String query = "INSERT OR IGNORE INTO PLAYER (cricbuzzId, player_name, tests, innings, runs, highest_score, bat_avg, " +
-                    "strike_rate, not_outs, hundreds, fifties, sixes, fours, cb_url,country )" +
-                    " VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);";
+            String query = "INSERT INTO PLAYER (cricbuzzId, player_name, tests, runs, highest_score, bat_avg, " +
+                    "hundreds, fifties, sixes, fours, country )" +
+                    " VALUES (?,?,?,?,?,?,?,?,?,?,?);";
 
             PreparedStatement stmt = conn.prepareStatement(query);
             stmt.setInt(1, cricbuzzId);
             stmt.setString(2, playerName);
             stmt.setInt(3, tests);
-            stmt.setInt(4, innings);
-            stmt.setInt(5, runs);
-            stmt.setInt(6, highestScore);
-            stmt.setDouble(7, batAvg);
-            stmt.setDouble(8, strikeRate);
-            stmt.setInt(9, notOuts);
-            stmt.setInt(10, hundreds);
-            stmt.setInt(11, fifties);
-            stmt.setInt(12, sixes);
-            stmt.setInt(13, fours);
-            stmt.setString(14, country);
+            stmt.setInt(4, runs);
+            stmt.setInt(5, highestScore);
+            stmt.setDouble(6, batAvg);
+            stmt.setInt(7, hundreds);
+            stmt.setInt(8, fifties);
+            stmt.setInt(9, sixes);
+            stmt.setInt(10, fours);
+            stmt.setString(11, country);
 
             stmt.executeUpdate();
             stmt.close();
@@ -112,7 +105,7 @@ public class SQLiteJDBCV2 {
         return flag;
     }
 
-    public void dropTable() {
+    public boolean dropTable() {
         Connection c = null;
         Statement stmt = null;
         try {
@@ -126,10 +119,13 @@ public class SQLiteJDBCV2 {
             c.commit();
             stmt.close();
             c.close();
+            log.info("dropTable Operation done");
+            return true;
         } catch (Exception e) {
             System.err.println(e.getClass().getName() + ": " + e.getMessage());
+            return false;
         }
-        log.info("dropTable Operation done");
+
     }
 
     public void deleteAllRow() {
@@ -188,7 +184,33 @@ public class SQLiteJDBCV2 {
             c.setAutoCommit(false);
 
             stmt = c.createStatement();
-            String sql = "select *  from PLAYER where country = 'IND';";
+            String sql = "select * from PLAYER where country = 'IND';";
+            ResultSet rs = stmt.executeQuery(sql);
+
+            while (rs.next()) {
+                count = rs.getInt("Rows");
+            }
+            c.commit();
+            stmt.close();
+            c.close();
+            return count;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return -1;
+        }
+    }
+
+    public int showTable() {
+        Connection c = null;
+        Statement stmt = null;
+        int count = 0;
+        try {
+            Class.forName(JDBCConnection);
+            c = DriverManager.getConnection(dbConectionString);
+            c.setAutoCommit(false);
+
+            stmt = c.createStatement();
+            String sql = "SHOW TABLES ";
             ResultSet rs = stmt.executeQuery(sql);
 
             while (rs.next()) {
