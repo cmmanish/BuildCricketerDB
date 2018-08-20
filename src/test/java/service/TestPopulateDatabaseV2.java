@@ -24,7 +24,7 @@ public class TestPopulateDatabaseV2 {
             String filePath = PLAYER_JSON_LOCATION + File.separator + "XXX" + PLAYER_STATS_FILE_JSON;
             sqliteJDBCV2.readJSONAndInsertToDatabase(filePath);
             log.info("Row Count " + sqliteJDBCV2.getRowCount());
-            sqliteJDBCV2.selectRow();
+            //sqliteJDBCV2.showINDPlayers();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -41,10 +41,10 @@ public class TestPopulateDatabaseV2 {
     }
 
     @Test
-    public void TestShowTableV2() {
+    public void TestShowINDPLayersV2() {
         try {
             SQLiteJDBCV2 sqliteJDBCV2 = new SQLiteJDBCV2();
-            log.info(sqliteJDBCV2.showTable() + "");
+            log.info(sqliteJDBCV2.showINDPlayers() + "");
         } catch (Exception e) {
             e.getLocalizedMessage();
         }

@@ -93,11 +93,12 @@ public class BuildPlayersFromCricbuzz extends AbstractbBaseClass {
     @Test
     public void T1testPlayer() {
 
-        for (int i = 25; i < 100; i++) {
+        for (int i = 36; i < 200; i++) {
             cbURL = CRICBUZZ_PROFILE_BASE_URL + i + "/";
             try {
                 JSONObject playerInfoJson = extractBattingStatsIntoJson(cbURL);
-                resultsList.add(playerInfoJson);
+                if (playerInfoJson.size()!=0)
+                    resultsList.add(playerInfoJson);
             } catch (Exception e) {
                 //log.warning(e.getMessage());
             }

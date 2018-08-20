@@ -174,7 +174,7 @@ public class SQLiteJDBCV2 {
         }
     }
 
-    public int selectRow() {
+    public int showINDPlayers() {
         Connection c = null;
         Statement stmt = null;
         int count = 0;
@@ -184,18 +184,18 @@ public class SQLiteJDBCV2 {
             c.setAutoCommit(false);
 
             stmt = c.createStatement();
-            String sql = "select * from PLAYER where country = 'IND';";
+            String sql = "select player_name from PLAYER where country = 'IND';";
             ResultSet rs = stmt.executeQuery(sql);
 
             while (rs.next()) {
-                count = rs.getInt("Rows");
+                count = rs.getInt("player_name");
             }
             c.commit();
             stmt.close();
             c.close();
             return count;
         } catch (Exception e) {
-            e.printStackTrace();
+            log.warning(e.getMessage());
             return -1;
         }
     }
