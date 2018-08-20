@@ -26,6 +26,7 @@
     <orderEntry type="library" name="Gradle: io.appium:java-client:2.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.xerial:sqlite-jdbc:3.8.11.1" level="project" />
     <orderEntry type="library" name="Gradle: com.dropbox.core:dropbox-core-sdk:2.0-beta-5" level="project" />
+    <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:5.1.13" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-htmlunit-driver:2.45.0" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-support:2.45.0" level="project" />
     <orderEntry type="library" name="Gradle: org.webbitserver:webbit:0.4.14" level="project" />

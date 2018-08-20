@@ -43,7 +43,7 @@ public class SQLiteJDBCV2 {
 
                 stmt = c.createStatement();
                 String sql = "CREATE TABLE PLAYER " +
-                        "(cricbuzzId INTEGER PRIMARY KEY    NOT NULL," +
+                        "(cricbuzz_id INTEGER PRIMARY KEY    NOT NULL," +
                         " player_name           TEXT    NOT NULL, " +
                         " country           TEXT    NOT NULL, " +
                         " tests            INTEGER     NOT NULL, " +
@@ -74,7 +74,7 @@ public class SQLiteJDBCV2 {
             Class.forName(JDBCConnection);
             conn = DriverManager.getConnection(dbConectionString);
             conn.setAutoCommit(false);
-            String query = "INSERT INTO PLAYER (cricbuzzId, player_name, tests, runs, highest_score, bat_avg, " +
+            String query = "INSERT INTO PLAYER (cricbuzz_id, player_name, tests, runs, highest_score, bat_avg, " +
                     "hundreds, fifties, sixes, fours, country )" +
                     " VALUES (?,?,?,?,?,?,?,?,?,?,?);";
 
@@ -158,7 +158,7 @@ public class SQLiteJDBCV2 {
             c.setAutoCommit(false);
 
             stmt = c.createStatement();
-            String sql = "select count (*) as Rows from PLAYER;";
+            String sql = "select count(*) from PLAYER;";
             ResultSet rs = stmt.executeQuery(sql);
 
             while (rs.next()) {
@@ -187,9 +187,9 @@ public class SQLiteJDBCV2 {
             String sql = "select player_name from PLAYER where country = 'IND';";
             ResultSet rs = stmt.executeQuery(sql);
 
-            while (rs.next()) {
-                count = rs.getInt("player_name");
-            }
+//            while (rs.next()) {
+//                count = rs.getInt("player_name");
+//            }
             c.commit();
             stmt.close();
             c.close();

@@ -23,7 +23,7 @@ public class TestPopulateDatabaseV2 {
             sqliteJDBCV2.deleteAllRow();
             String filePath = PLAYER_JSON_LOCATION + File.separator + "XXX" + PLAYER_STATS_FILE_JSON;
             sqliteJDBCV2.readJSONAndInsertToDatabase(filePath);
-            log.info("Row Count " + sqliteJDBCV2.getRowCount());
+            //log.info("Row Count " + sqliteJDBCV2.getRowCount());
             //sqliteJDBCV2.showINDPlayers();
         } catch (Exception e) {
             e.printStackTrace();

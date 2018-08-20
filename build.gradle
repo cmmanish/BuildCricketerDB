@@ -30,6 +30,8 @@ dependencies {
     compile 'org.xerial:sqlite-jdbc:3.8.11.1'
     compile 'com.dropbox.core:dropbox-core-sdk:2.0-beta-5'
     compile group: 'org.apache.logging.log4j', name: 'log4j', version: '2.11.1'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.13'
+
 }
 
 println 'A message which is logged at QUIET level'
