@@ -6,6 +6,8 @@ import org.json.simple.parser.JSONParser;
 
 import java.io.FileReader;
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.Logger;
 
 public class SQLiteJDBCV2 {
@@ -45,7 +47,6 @@ public class SQLiteJDBCV2 {
                 String sql = "CREATE TABLE PLAYER " +
                         "(cricbuzz_id INTEGER PRIMARY KEY    NOT NULL," +
                         " player_name           TEXT    NOT NULL, " +
-                        " country           TEXT    NOT NULL, " +
                         " tests            INTEGER     NOT NULL, " +
                         " runs            INTEGER     NOT NULL, " +
                         " highest_score            INTEGER     NOT NULL, " +
@@ -53,7 +54,8 @@ public class SQLiteJDBCV2 {
                         " hundreds            INTEGER     NOT NULL, " +
                         " fifties            INTEGER     NOT NULL, " +
                         " sixes            INTEGER     NOT NULL, " +
-                        " fours            INTEGER     NOT NULL )" ;
+                        " fours            INTEGER     NOT NULL, " +
+                        " country           TEXT    NOT NULL ) ";
                 log.info("sql: " + sql);
                 stmt.executeUpdate(sql);
                 stmt.close();
@@ -162,7 +164,7 @@ public class SQLiteJDBCV2 {
             ResultSet rs = stmt.executeQuery(sql);
 
             while (rs.next()) {
-                count = rs.getInt("Rows");
+                count = rs.getInt(1);
             }
             c.commit();
             stmt.close();
@@ -174,29 +176,34 @@ public class SQLiteJDBCV2 {
         }
     }
 
-    public int showINDPlayers() {
+    public List<String> getPlayerNameFromDatabase(String country) {
         Connection c = null;
         Statement stmt = null;
-        int count = 0;
+        List<String> playerNameList = new ArrayList<String>();
+
+        if (country.equals("")){
+            return playerNameList;
+        }
         try {
             Class.forName(JDBCConnection);
             c = DriverManager.getConnection(dbConectionString);
             c.setAutoCommit(false);
 
             stmt = c.createStatement();
-            String sql = "select player_name from PLAYER where country = 'IND';";
+            String sql = "select player_name from PLAYER where country=" + "'"+country+"'";
+            log.info(sql);
             ResultSet rs = stmt.executeQuery(sql);
 
-//            while (rs.next()) {
-//                count = rs.getInt("player_name");
-//            }
+            while (rs.next()) {
+                playerNameList.add(rs.getString("player_name"));
+            }
             c.commit();
             stmt.close();
             c.close();
-            return count;
+            return  playerNameList;
         } catch (Exception e) {
             log.warning(e.getMessage());
-            return -1;
+            return playerNameList;
         }
     }
 

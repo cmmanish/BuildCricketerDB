@@ -5,6 +5,7 @@ import junit.framework.Assert;
 import org.junit.Test;
 
 import java.io.File;
+import java.util.List;
 import java.util.logging.Logger;
 
 import static com.cricket.stats.utils.QaConstants.PLAYER_JSON_LOCATION;
@@ -23,8 +24,8 @@ public class TestPopulateDatabaseV2 {
             sqliteJDBCV2.deleteAllRow();
             String filePath = PLAYER_JSON_LOCATION + File.separator + "XXX" + PLAYER_STATS_FILE_JSON;
             sqliteJDBCV2.readJSONAndInsertToDatabase(filePath);
-            //log.info("Row Count " + sqliteJDBCV2.getRowCount());
-            //sqliteJDBCV2.showINDPlayers();
+            log.info("Row Count " + sqliteJDBCV2.getRowCount());
+            sqliteJDBCV2.getPlayerNameFromDatabase("India");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -43,8 +44,12 @@ public class TestPopulateDatabaseV2 {
     @Test
     public void TestShowINDPLayersV2() {
         try {
+
             SQLiteJDBCV2 sqliteJDBCV2 = new SQLiteJDBCV2();
-            log.info(sqliteJDBCV2.showINDPlayers() + "");
+            List playerList = sqliteJDBCV2.getPlayerNameFromDatabase("India");
+            for (int i = 0; i < playerList.size(); i++)
+                log.info(playerList.get(i).toString());
+
         } catch (Exception e) {
             e.getLocalizedMessage();
         }
@@ -53,7 +58,7 @@ public class TestPopulateDatabaseV2 {
     @Test
     public void TestDropTableV2() {
         SQLiteJDBCV2 sqliteJDBCV2 = new SQLiteJDBCV2();
-        Assert.assertEquals(true,sqliteJDBCV2.dropTable());
+        Assert.assertEquals(true, sqliteJDBCV2.dropTable());
     }
 
     @Test
