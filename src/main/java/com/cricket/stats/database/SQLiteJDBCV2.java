@@ -3,7 +3,6 @@ package com.cricket.stats.database;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
-
 import java.io.FileReader;
 import java.sql.*;
 import java.util.ArrayList;
@@ -191,6 +190,33 @@ public class SQLiteJDBCV2 {
 
             stmt = c.createStatement();
             String sql = "select player_name from PLAYER where country=" + "'"+country+"'";
+            log.info(sql);
+            ResultSet rs = stmt.executeQuery(sql);
+
+            while (rs.next()) {
+                playerNameList.add(rs.getString("player_name"));
+            }
+            c.commit();
+            stmt.close();
+            c.close();
+            return  playerNameList;
+        } catch (Exception e) {
+            log.warning(e.getMessage());
+            return playerNameList;
+        }
+    }
+
+    public List<String> getGreatBatsmenFromDatabase() {
+        Connection c = null;
+        Statement stmt = null;
+        List<String> playerNameList = new ArrayList<String>();
+        try {
+            Class.forName(JDBCConnection);
+            c = DriverManager.getConnection(dbConectionString);
+            c.setAutoCommit(false);
+
+            stmt = c.createStatement();
+            String sql = "select player_name from PLAYER where bat_avg > 50.0";
             log.info(sql);
             ResultSet rs = stmt.executeQuery(sql);
 

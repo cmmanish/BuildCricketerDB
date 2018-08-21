@@ -82,7 +82,6 @@ public class BuildPlayersFromCricbuzz extends AbstractbBaseClass {
             playerInfoJson.put("fifties", fifties);
             playerInfoJson.put("sixes", sixes);
             playerInfoJson.put("fours", fours);
-
         } catch (Exception e) {
             //log.warning(e.getMessage());
         }
