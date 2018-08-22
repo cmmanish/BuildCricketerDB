@@ -9,8 +9,7 @@ exports.handleHOME = function (request, response) {
 
 exports.handleGETDatabase = function (request, response) {
 
-  var country = request.params.country;
-  var contents = fs.readFileSync("database/CRICKET.db");
+  var contents = fs.readFileSync("database/CRICKET_V2.db");
 
   response.on('error', function(err) {
         console.error(err);
@@ -23,9 +22,9 @@ exports.handleGETDatabase = function (request, response) {
 
 exports.handleGET = function (request, response) {
 
-    var country = request.params.country;
+    var country = 'XXX';
     if (request.params.country == null){
-        country = 'IND'
+        country = 'XXX'
     }
     var contents = fs.readFileSync("json/"+country+"PlayerStats.json");
     var jsonContent = JSON.parse(contents);
@@ -35,6 +34,6 @@ exports.handleGET = function (request, response) {
         });
 
     response.writeHead(200, {'Content-Type': 'application/json'})
-    response.write(JSON.stringify(jsonContent));
+    response.write(JSON.stringify(jsonContent,null,2));
     response.end();
 };
