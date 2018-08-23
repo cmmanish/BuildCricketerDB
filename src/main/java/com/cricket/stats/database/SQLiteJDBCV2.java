@@ -216,7 +216,7 @@ public class SQLiteJDBCV2 {
             c.setAutoCommit(false);
 
             stmt = c.createStatement();
-            String sql = "select player_name from PLAYER where bat_avg > 50.0";
+            String sql = "select player_name from PLAYER where bat_avg > 50.0 and tests > 30";
             log.info(sql);
             ResultSet rs = stmt.executeQuery(sql);
 

@@ -19,9 +19,11 @@ app.set('view engine', 'html');
 
 app.get('/', routes.handleHOME);
 
-app.get('/GET', routes.handleGETDatabase);
-
 app.get('/GET/:country', routes.handleGET);
+
+app.get('/goat', routes.handleGoat);
+
+app.get('/top10', routes.handletop10);
 
 // START THE SERVER
 // =============================================================================
