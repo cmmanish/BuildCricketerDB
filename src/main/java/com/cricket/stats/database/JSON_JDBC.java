@@ -5,7 +5,7 @@ package com.cricket.stats.database;
  */
 public class JSON_JDBC {
 
-//    public boolean readJSON() {
+//    public boolean readJSONAndInsertToDatabase() {
 //
 //        try {
 //            JSONParser parser = new JSONParser();
