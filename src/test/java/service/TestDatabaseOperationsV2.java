@@ -30,7 +30,7 @@ public class TestDatabaseOperationsV2 {
     public void afterTest(){
         end = Instant.now();
         Duration timeElapsed = Duration.between(start, end);
-        System.out.println("Time taken: "+ timeElapsed.toMillis() +" milliseconds");
+        log.info("Time taken: "+ timeElapsed.toMillis() +" milliseconds");
     }
     @Test
     public void populateNow() {

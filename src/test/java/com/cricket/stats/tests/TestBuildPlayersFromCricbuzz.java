@@ -5,6 +5,7 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.junit.After;
 import org.junit.AfterClass;
+import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -12,7 +13,12 @@ import org.openqa.selenium.WebElement;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.time.Duration;
+import java.time.Instant;
 import java.util.List;
+import java.util.logging.Logger;
+
+import service.TestDatabaseOperationsV2;
 
 import static com.cricket.stats.utils.QaConstants.CRICBUZZ_PROFILE_BASE_URL;
 import static com.cricket.stats.utils.QaConstants.PLAYER_JSON_LOCATION;
@@ -20,14 +26,16 @@ import static com.cricket.stats.utils.QaConstants.PLAYER_JSON_LOCATION;
 /**
  * Created by mmadhusoodan on 6/4/15.
  */
-public class BuildPlayersFromCricbuzz extends AbstractbBaseClass {
+public class TestBuildPlayersFromCricbuzz extends AbstractbBaseClass {
+
+    public static Logger log = Logger.getLogger(String.valueOf(TestBuildPlayersFromCricbuzz.class));
 
     static String country = "XXX";
     static String fileName = country + "PlayerStats.json";
     static JSONArray resultsList = new JSONArray();
     static long time;
 
-    public BuildPlayersFromCricbuzz() {
+    public TestBuildPlayersFromCricbuzz() {
         time = System.currentTimeMillis();
         filePath = PLAYER_JSON_LOCATION + File.separator + fileName;
         file = new File(filePath);
@@ -88,11 +96,23 @@ public class BuildPlayersFromCricbuzz extends AbstractbBaseClass {
         return playerInfoJson;
     }
 
+    Instant start, end;
+    @Before
+    public void beforeTest(){
+        start = Instant.now();
+    }
+
+    @After
+    public void afterTest(){
+        end = Instant.now();
+        Duration timeElapsed = Duration.between(start, end);
+        log.info("Time taken: "+ timeElapsed.toMillis() +" milliseconds");
+    }
 
     @Test
     public void T1testPlayer() {
 
-        for (int i = 36; i < 200; i++) {
+        for (int i = 36; i < 500; i++) {
             cbURL = CRICBUZZ_PROFILE_BASE_URL + i + "/";
             try {
                 JSONObject playerInfoJson = extractBattingStatsIntoJson(cbURL);
