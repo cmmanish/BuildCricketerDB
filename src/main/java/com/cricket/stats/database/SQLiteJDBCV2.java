@@ -3,8 +3,14 @@ package com.cricket.stats.database;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+
 import java.io.FileReader;
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
@@ -180,7 +186,7 @@ public class SQLiteJDBCV2 {
         Statement stmt = null;
         List<String> playerNameList = new ArrayList<String>();
 
-        if (country.equals("")){
+        if (country.equals("")) {
             return playerNameList;
         }
         try {
@@ -189,7 +195,7 @@ public class SQLiteJDBCV2 {
             c.setAutoCommit(false);
 
             stmt = c.createStatement();
-            String sql = "select player_name from PLAYER where country=" + "'"+country+"'";
+            String sql = "select player_name from PLAYER where country=" + "'" + country + "'";
             log.info(sql);
             ResultSet rs = stmt.executeQuery(sql);
 
@@ -199,7 +205,7 @@ public class SQLiteJDBCV2 {
             c.commit();
             stmt.close();
             c.close();
-            return  playerNameList;
+            return playerNameList;
         } catch (Exception e) {
             log.warning(e.getMessage());
             return playerNameList;
@@ -226,7 +232,7 @@ public class SQLiteJDBCV2 {
             c.commit();
             stmt.close();
             c.close();
-            return  playerNameList;
+            return playerNameList;
         } catch (Exception e) {
             log.warning(e.getMessage());
             return playerNameList;
@@ -270,6 +276,9 @@ public class SQLiteJDBCV2 {
             log.info("Total players: " + playerList.size());
             for (int i = 0; i < playerList.size(); i++) {
                 JSONObject eachPlayer = (JSONObject) playerList.get(i);
+                if (0 == eachPlayer.size()) {
+                    continue;
+                }
                 cricbuzzId = Integer.parseInt(eachPlayer.get("cricbuzzId").toString());
                 country = eachPlayer.get("country").toString();
                 playerName = eachPlayer.get("playerName").toString();
