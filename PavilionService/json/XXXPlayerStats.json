@@ -192,7 +192,6 @@
       "runs": "5570",
       "cricbuzzId": "36"
     },
-    {},
     {
       "country": "Australia",
       "playerName": "Ricky Ponting",
@@ -227,22 +226,6 @@
     },
     {
       "country": "Australia",
-      "playerName": "Jason Gillespie",
-      "notOuts": "28",
-      "highestScore": "201",
-      "strikeRate": "31.97",
-      "tests": "71",
-      "sixes": "8",
-      "innings": "93",
-      "batAvg": "18.74",
-      "fifties": "2",
-      "hundreds": "1",
-      "fours": "146",
-      "runs": "1218",
-      "cricbuzzId": "40"
-    },
-    {
-      "country": "Australia",
       "playerName": "Glenn McGrath",
       "notOuts": "51",
       "highestScore": "61",
@@ -273,7 +256,6 @@
       "runs": "1451",
       "cricbuzzId": "42"
     },
-    {},
     {
       "country": "England",
       "playerName": "Marcus Trescothick",
@@ -290,10 +272,6 @@
       "runs": "5825",
       "cricbuzzId": "44"
     },
-    {},
-    {},
-    {},
-    {},
     {
       "country": "New Zealand",
       "playerName": "Stephen Fleming",
@@ -326,7 +304,6 @@
       "runs": "4702",
       "cricbuzzId": "50"
     },
-    {},
     {
       "country": "New Zealand",
       "playerName": "Chris Cairns",
@@ -343,9 +320,6 @@
       "runs": "3320",
       "cricbuzzId": "52"
     },
-    {},
-    {},
-    {},
     {
       "country": "New Zealand",
       "playerName": "Hamish Marshall",
@@ -410,7 +384,6 @@
       "runs": "1780",
       "cricbuzzId": "59"
     },
-    {},
     {
       "country": "England",
       "playerName": "Andrew Flintoff",
@@ -459,7 +432,6 @@
       "runs": "855",
       "cricbuzzId": "63"
     },
-    {},
     {
       "country": "England",
       "playerName": "James Anderson",
@@ -492,8 +464,6 @@
       "runs": "4259",
       "cricbuzzId": "66"
     },
-    {},
-    {},
     {
       "country": "India",
       "playerName": "Yuvraj Singh",
@@ -542,7 +512,6 @@
       "runs": "1230",
       "cricbuzzId": "71"
     },
-    {},
     {
       "country": "India",
       "playerName": "Irfan Pathan",
@@ -591,7 +560,6 @@
       "runs": "2225",
       "cricbuzzId": "75"
     },
-    {},
     {
       "country": "Pakistan",
       "playerName": "Kamran Akmal",
@@ -623,22 +591,6 @@
       "fours": "230",
       "runs": "1946",
       "cricbuzzId": "78"
-    },
-    {
-      "country": "Pakistan",
-      "playerName": "Yasir Hameed",
-      "notOuts": "3",
-      "highestScore": "170",
-      "strikeRate": "57.61",
-      "tests": "25",
-      "sixes": "4",
-      "innings": "49",
-      "batAvg": "32.41",
-      "fifties": "8",
-      "hundreds": "2",
-      "fours": "223",
-      "runs": "1491",
-      "cricbuzzId": "79"
     },
     {
       "country": "Pakistan",
@@ -688,10 +640,6 @@
       "runs": "54",
       "cricbuzzId": "82"
     },
-    {},
-    {},
-    {},
-    {},
     {
       "country": "United Arab Emirates",
       "playerName": "Mohammad Tauqir",
@@ -708,14 +656,6 @@
       "runs": "95",
       "cricbuzzId": "87"
     },
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
     {
       "country": "India",
       "playerName": "Lakshmipathy Balaji",
@@ -732,7 +672,6 @@
       "runs": "51",
       "cricbuzzId": "96"
     },
-    {},
     {
       "country": "India",
       "playerName": "Anil Kumble",
@@ -749,7 +688,6 @@
       "runs": "2506",
       "cricbuzzId": "98"
     },
-    {},
     {
       "country": "Sri Lanka",
       "playerName": "Marvan Atapattu",
@@ -798,7 +736,6 @@
       "runs": "6973",
       "cricbuzzId": "102"
     },
-    {},
     {
       "country": "Sri Lanka",
       "playerName": "Kumar Sangakkara",
@@ -1007,7 +944,6 @@
       "runs": "1141",
       "cricbuzzId": "116"
     },
-    {},
     {
       "country": "Bangladesh",
       "playerName": "Mohammad Ashraful",
@@ -1040,7 +976,6 @@
       "runs": "584",
       "cricbuzzId": "119"
     },
-    {},
     {
       "country": "Bangladesh",
       "playerName": "Khaled Mahmud",
@@ -1089,7 +1024,6 @@
       "runs": "1059",
       "cricbuzzId": "123"
     },
-    {},
     {
       "country": "Bangladesh",
       "playerName": "Tapash Baisya",
@@ -1106,7 +1040,6 @@
       "runs": "384",
       "cricbuzzId": "125"
     },
-    {},
     {
       "country": "Bangladesh",
       "playerName": "Abdur Razzak",
@@ -1123,7 +1056,6 @@
       "runs": "248",
       "cricbuzzId": "127"
     },
-    {},
     {
       "country": "Pakistan",
       "playerName": "Imran Farhat",
@@ -1188,8 +1120,6 @@
       "runs": "360",
       "cricbuzzId": "132"
     },
-    {},
-    {},
     {
       "country": "Australia",
       "playerName": "Shane Warne",
@@ -1222,7 +1152,6 @@
       "runs": "4406",
       "cricbuzzId": "136"
     },
-    {},
     {
       "country": "Australia",
       "playerName": "Michael Clarke",
@@ -1239,7 +1168,6 @@
       "runs": "8643",
       "cricbuzzId": "138"
     },
-    {},
     {
       "country": "Australia",
       "playerName": "Brad Hogg",
@@ -1304,7 +1232,6 @@
       "runs": "1889",
       "cricbuzzId": "143"
     },
-    {},
     {
       "country": "India",
       "playerName": "Dinesh Karthik",
@@ -1337,16 +1264,6 @@
       "runs": "571",
       "cricbuzzId": "146"
     },
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
     {
       "country": "Australia",
       "playerName": "Matthew Hayden",
@@ -1395,7 +1312,6 @@
       "runs": "3266",
       "cricbuzzId": "159"
     },
-    {},
     {
       "country": "England",
       "playerName": "Michael Vaughan",
@@ -1428,7 +1344,6 @@
       "runs": "10",
       "cricbuzzId": "162"
     },
-    {},
     {
       "country": "England",
       "playerName": "Ashley Giles",
@@ -1493,7 +1408,6 @@
       "runs": "7037",
       "cricbuzzId": "167"
     },
-    {},
     {
       "country": "Zimbabwe",
       "playerName": "Tatenda Taibu",
@@ -1526,9 +1440,6 @@
       "runs": "569",
       "cricbuzzId": "170"
     },
-    {},
-    {},
-    {},
     {
       "country": "Zimbabwe",
       "playerName": "Stuart Matsikenyeri",
@@ -1577,7 +1488,6 @@
       "runs": "187",
       "cricbuzzId": "176"
     },
-    {},
     {
       "country": "Zimbabwe",
       "playerName": "Ed Rainsford",
@@ -1722,7 +1632,6 @@
       "runs": "3428",
       "cricbuzzId": "186"
     },
-    {},
     {
       "country": "Kenya",
       "playerName": "Ragheb Aga",
@@ -1835,7 +1744,6 @@
       "runs": "1517",
       "cricbuzzId": "194"
     },
-    {},
     {
       "country": "Kenya",
       "playerName": "Malhar Patel",
@@ -1884,8 +1792,6 @@
       "runs": "506",
       "cricbuzzId": "198"
     },
-    {},
-    {},
     {
       "country": "New Zealand",
       "playerName": "Brendon McCullum",
@@ -2030,7 +1936,6 @@
       "runs": "1312",
       "cricbuzzId": "209"
     },
-    {},
     {
       "country": "South Africa",
       "playerName": "Jean-Paul Duminy",
@@ -2079,7 +1984,6 @@
       "runs": "13289",
       "cricbuzzId": "213"
     },
-    {},
     {
       "country": "South Africa",
       "playerName": "Charl Langeveldt",
@@ -2112,7 +2016,6 @@
       "runs": "699",
       "cricbuzzId": "216"
     },
-    {},
     {
       "country": "South Africa",
       "playerName": "Shaun Pollock",
@@ -2145,7 +2048,6 @@
       "runs": "2622",
       "cricbuzzId": "219"
     },
-    {},
     {
       "country": "South Africa",
       "playerName": "Andre Nel",
@@ -2194,22 +2096,6 @@
       "runs": "94",
       "cricbuzzId": "223"
     },
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
     {
       "country": "Windies",
       "playerName": "Brian Lara",
@@ -2258,7 +2144,6 @@
       "runs": "2200",
       "cricbuzzId": "242"
     },
-    {},
     {
       "country": "Windies",
       "playerName": "Shivnarine Chanderpaul",
@@ -2291,7 +2176,6 @@
       "runs": "197",
       "cricbuzzId": "245"
     },
-    {},
     {
       "country": "Windies",
       "playerName": "Chris Gayle",
@@ -2342,23 +2226,6 @@
     },
     {
       "country": "Windies",
-      "playerName": "Sylvester Joseph",
-      "notOuts": "0",
-      "highestScore": "45",
-      "strikeRate": "37.79",
-      "tests": "5",
-      "sixes": "1",
-      "innings": "10",
-      "batAvg": "14.7",
-      "fifties": "0",
-      "hundreds": "0",
-      "fours": "20",
-      "runs": "147",
-      "cricbuzzId": "250"
-    },
-    {},
-    {
-      "country": "Windies",
       "playerName": "Ramnaresh Sarwan",
       "notOuts": "7",
       "highestScore": "291",
@@ -2375,7 +2242,7 @@
     },
     {
       "country": "Windies",
-      "playerName": "Darren Sammy",
+      "playerName": "Daren Sammy",
       "notOuts": "2",
       "highestScore": "106",
       "strikeRate": "67.88",
@@ -2389,7 +2256,6 @@
       "runs": "1323",
       "cricbuzzId": "253"
     },
-    {},
     {
       "country": "Windies",
       "playerName": "Dwayne Smith",
@@ -2406,7 +2272,6 @@
       "runs": "320",
       "cricbuzzId": "255"
     },
-    {},
     {
       "country": "India",
       "playerName": "Aakash Chopra",
@@ -2423,10 +2288,6 @@
       "runs": "437",
       "cricbuzzId": "257"
     },
-    {},
-    {},
-    {},
-    {},
     {
       "country": "India",
       "playerName": "Dinesh Mongia",
@@ -2443,8 +2304,6 @@
       "runs": "1230",
       "cricbuzzId": "262"
     },
-    {},
-    {},
     {
       "country": "India",
       "playerName": "MS Dhoni",
@@ -2461,9 +2320,6 @@
       "runs": "4876",
       "cricbuzzId": "265"
     },
-    {},
-    {},
-    {},
     {
       "country": "India",
       "playerName": "Ashish Nehra",
@@ -2496,9 +2352,6 @@
       "runs": "35",
       "cricbuzzId": "270"
     },
-    {},
-    {},
-    {},
     {
       "country": "Pakistan",
       "playerName": "Misbah-ul-Haq",
@@ -2514,38 +2367,6 @@
       "fours": "511",
       "runs": "5222",
       "cricbuzzId": "274"
-    },
-    {
-      "country": "Pakistan",
-      "playerName": "Iftikhar Anjum",
-      "notOuts": "1",
-      "highestScore": "9",
-      "strikeRate": "23.08",
-      "tests": "1",
-      "sixes": "0",
-      "innings": "1",
-      "batAvg": "0.0",
-      "fifties": "0",
-      "hundreds": "0",
-      "fours": "2",
-      "runs": "9",
-      "cricbuzzId": "275"
-    },
-    {
-      "country": "Pakistan",
-      "playerName": "Bazid Khan",
-      "notOuts": "0",
-      "highestScore": "23",
-      "strikeRate": "68.09",
-      "tests": "1",
-      "sixes": "0",
-      "innings": "2",
-      "batAvg": "16.0",
-      "fifties": "0",
-      "hundreds": "0",
-      "fours": "5",
-      "runs": "32",
-      "cricbuzzId": "276"
     },
     {
       "country": "Sri Lanka",
@@ -2659,22 +2480,6 @@
       "runs": "503",
       "cricbuzzId": "283"
     },
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
     {
       "country": "India",
       "playerName": "Murali Kartik",
@@ -2707,7 +2512,6 @@
       "runs": "717",
       "cricbuzzId": "301"
     },
-    {},
     {
       "country": "Pakistan",
       "playerName": "Zulqarnain Haider",
@@ -2724,7 +2528,6 @@
       "runs": "88",
       "cricbuzzId": "303"
     },
-    {},
     {
       "country": "Sri Lanka",
       "playerName": "Jehan Mubarak",
@@ -2740,23 +2543,6 @@
       "fours": "50",
       "runs": "385",
       "cricbuzzId": "305"
-    },
-    {},
-    {
-      "country": "Sri Lanka",
-      "playerName": "Thilan Samaraweera",
-      "notOuts": "20",
-      "highestScore": "231",
-      "strikeRate": "46.92",
-      "tests": "81",
-      "sixes": "7",
-      "innings": "132",
-      "batAvg": "48.77",
-      "fifties": "30",
-      "hundreds": "14",
-      "fours": "633",
-      "runs": "5462",
-      "cricbuzzId": "307"
     },
     {
       "country": "India",
@@ -2774,10 +2560,6 @@
       "runs": "4154",
       "cricbuzzId": "308"
     },
-    {},
-    {},
-    {},
-    {},
     {
       "country": "South Africa",
       "playerName": "Boeta Dippenaar",
@@ -2810,7 +2592,6 @@
       "runs": "9022",
       "cricbuzzId": "314"
     },
-    {},
     {
       "country": "South Africa",
       "playerName": "Andrew Hall",
@@ -2859,7 +2640,6 @@
       "runs": "464",
       "cricbuzzId": "318"
     },
-    {},
     {
       "country": "South Africa",
       "playerName": "Alfonso Thomas",
@@ -2876,7 +2656,6 @@
       "runs": "0",
       "cricbuzzId": "320"
     },
-    {},
     {
       "country": "New Zealand",
       "playerName": "Andre Adams",
@@ -2909,8 +2688,6 @@
       "runs": "797",
       "cricbuzzId": "323"
     },
-    {},
-    {},
     {
       "country": "Pakistan",
       "playerName": "Mohammad Asif",
@@ -2927,8 +2704,6 @@
       "runs": "141",
       "cricbuzzId": "326"
     },
-    {},
-    {},
     {
       "country": "Australia",
       "playerName": "Stuart MacGill",
@@ -2945,32 +2720,6 @@
       "runs": "349",
       "cricbuzzId": "329"
     },
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
     {
       "country": "Windies",
       "playerName": "Marlon Samuels",
@@ -3003,7 +2752,6 @@
       "runs": "235",
       "cricbuzzId": "357"
     },
-    {},
     {
       "country": "Windies",
       "playerName": "Xavier Marshall",
@@ -3036,9 +2784,6 @@
       "runs": "3452",
       "cricbuzzId": "360"
     },
-    {},
-    {},
-    {},
     {
       "country": "Australia",
       "playerName": "James Hopes",
@@ -3087,8 +2832,6 @@
       "runs": "441",
       "cricbuzzId": "366"
     },
-    {},
-    {},
     {
       "country": "Pakistan",
       "playerName": "Arshad Khan",
@@ -3169,7 +2912,6 @@
       "runs": "1760",
       "cricbuzzId": "373"
     },
-    {},
     {
       "country": "Windies",
       "playerName": "Narsingh Deonarine",
@@ -3202,7 +2944,6 @@
       "runs": "2160",
       "cricbuzzId": "376"
     },
-    {},
     {
       "country": "Windies",
       "playerName": "Daren Powell",
@@ -3283,7 +3024,6 @@
       "runs": "401",
       "cricbuzzId": "382"
     },
-    {},
     {
       "country": "Windies",
       "playerName": "Runako Morton",
@@ -3332,7 +3072,6 @@
       "runs": "473",
       "cricbuzzId": "386"
     },
-    {},
     {
       "country": "England",
       "playerName": "Jon Lewis",
@@ -3349,7 +3088,6 @@
       "runs": "27",
       "cricbuzzId": "388"
     },
-    {},
     {
       "country": "Bangladesh",
       "playerName": "Enamul Haque jnr",
@@ -3366,7 +3104,6 @@
       "runs": "59",
       "cricbuzzId": "390"
     },
-    {},
     {
       "country": "Bangladesh",
       "playerName": "Shahadat Hossain",
@@ -3463,7 +3200,6 @@
       "runs": "113",
       "cricbuzzId": "397"
     },
-    {},
     {
       "country": "Windies",
       "playerName": "Denesh Ramdin",
@@ -3480,8 +3216,22 @@
       "runs": "2898",
       "cricbuzzId": "399"
     },
-    {},
-    {},
+    {
+      "country": "Windies",
+      "playerName": "Omari Banks",
+      "notOuts": "4",
+      "highestScore": "50",
+      "strikeRate": "38.92",
+      "tests": "10",
+      "sixes": "2",
+      "innings": "16",
+      "batAvg": "26.5",
+      "fifties": "1",
+      "hundreds": "0",
+      "fours": "42",
+      "runs": "318",
+      "cricbuzzId": "401"
+    },
     {
       "country": "Windies",
       "playerName": "Deighton Butler",
@@ -3498,7 +3248,6 @@
       "runs": "25",
       "cricbuzzId": "402"
     },
-    {},
     {
       "country": "Sri Lanka",
       "playerName": "Gayan Wijekoon",
@@ -3531,7 +3280,6 @@
       "runs": "1821",
       "cricbuzzId": "405"
     },
-    {},
     {
       "country": "Australia",
       "playerName": "Shaun Tait",
@@ -3548,10 +3296,6 @@
       "runs": "20",
       "cricbuzzId": "407"
     },
-    {},
-    {},
-    {},
-    {},
     {
       "country": "India",
       "playerName": "Venugopal Rao",
@@ -3616,7 +3360,6 @@
       "runs": "83",
       "cricbuzzId": "415"
     },
-    {},
     {
       "country": "New Zealand",
       "playerName": "Lou Vincent",
@@ -3681,10 +3424,6 @@
       "runs": "123",
       "cricbuzzId": "420"
     },
-    {},
-    {},
-    {},
-    {},
     {
       "country": "Zimbabwe",
       "playerName": "Hamilton Masakadza",
@@ -3701,7 +3440,6 @@
       "runs": "2083",
       "cricbuzzId": "425"
     },
-    {},
     {
       "country": "Zimbabwe",
       "playerName": "Blessing Mahwire",
@@ -3766,7 +3504,6 @@
       "runs": "30",
       "cricbuzzId": "430"
     },
-    {},
     {
       "country": "Australia",
       "playerName": "Stuart Clark",
@@ -3800,22 +3537,6 @@
       "cricbuzzId": "433"
     },
     {
-      "country": "India",
-      "playerName": "RP Singh",
-      "notOuts": "3",
-      "highestScore": "30",
-      "strikeRate": "42.03",
-      "tests": "14",
-      "sixes": "1",
-      "innings": "19",
-      "batAvg": "7.25",
-      "fifties": "0",
-      "hundreds": "0",
-      "fours": "16",
-      "runs": "116",
-      "cricbuzzId": "434"
-    },
-    {
       "country": "New Zealand",
       "playerName": "Jeetan Patel",
       "notOuts": "8",
@@ -3847,10 +3568,6 @@
       "runs": "124",
       "cricbuzzId": "436"
     },
-    {},
-    {},
-    {},
-    {},
     {
       "country": "Zimbabwe",
       "playerName": "Sean Williams",
@@ -3883,7 +3600,6 @@
       "runs": "80",
       "cricbuzzId": "442"
     },
-    {},
     {
       "country": "Australia",
       "playerName": "Nathan Bracken",
@@ -3900,13 +3616,6 @@
       "runs": "70",
       "cricbuzzId": "444"
     },
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
     {
       "country": "India",
       "playerName": "Vidyut Sivaramakrishnan",
@@ -3923,9 +3632,6 @@
       "runs": "145",
       "cricbuzzId": "452"
     },
-    {},
-    {},
-    {},
     {
       "country": "India",
       "playerName": "Vikram Singh",
@@ -3942,12 +3648,6 @@
       "runs": "47",
       "cricbuzzId": "456"
     },
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
     {
       "country": "India",
       "playerName": "S Sreesanth",
@@ -3964,8 +3664,6 @@
       "runs": "281",
       "cricbuzzId": "463"
     },
-    {},
-    {},
     {
       "country": "India",
       "playerName": "Piyush Chawla",
@@ -3982,18 +3680,6 @@
       "runs": "6",
       "cricbuzzId": "466"
     },
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
     {
       "country": "England",
       "playerName": "Liam Plunkett",
@@ -4042,8 +3728,6 @@
       "runs": "109",
       "cricbuzzId": "481"
     },
-    {},
-    {},
     {
       "country": "South Africa",
       "playerName": "Albie Morkel",
@@ -4060,8 +3744,6 @@
       "runs": "58",
       "cricbuzzId": "484"
     },
-    {},
-    {},
     {
       "country": "Australia",
       "playerName": "Johan Botha",
@@ -4094,7 +3776,6 @@
       "runs": "12225",
       "cricbuzzId": "488"
     },
-    {},
     {
       "country": "South Africa",
       "playerName": "Andrew Puttick",
@@ -4303,7 +3984,6 @@
       "runs": "967",
       "cricbuzzId": "502"
     },
-    {},
     {
       "country": "Pakistan",
       "playerName": "Umar Gul",
@@ -4608,7 +4288,6 @@
       "runs": "60",
       "cricbuzzId": "522"
     },
-    {},
     {
       "country": "Pakistan",
       "playerName": "Abdur Rehman",
@@ -4673,7 +4352,6 @@
       "runs": "934",
       "cricbuzzId": "527"
     },
-    {},
     {
       "country": "Zimbabwe",
       "playerName": "Ryan Higgins",
@@ -5122,8 +4800,6 @@
       "runs": "326",
       "cricbuzzId": "556"
     },
-    {},
-    {},
     {
       "country": "Australia",
       "playerName": "Doug Bollinger",
@@ -5140,7 +4816,6 @@
       "runs": "54",
       "cricbuzzId": "559"
     },
-    {},
     {
       "country": "Australia",
       "playerName": "Ben Hilfenhaus",
@@ -5189,8 +4864,6 @@
       "runs": "2068",
       "cricbuzzId": "563"
     },
-    {},
-    {},
     {
       "country": "Bangladesh",
       "playerName": "Mehrab Hossain jnr",
@@ -5239,8 +4912,6 @@
       "runs": "4",
       "cricbuzzId": "568"
     },
-    {},
-    {},
     {
       "country": "England",
       "playerName": "Ravi Bopara",
@@ -5305,7 +4976,6 @@
       "runs": "63",
       "cricbuzzId": "574"
     },
-    {},
     {
       "country": "India",
       "playerName": "Rohit Sharma",
@@ -5386,8 +5056,6 @@
       "runs": "63",
       "cricbuzzId": "580"
     },
-    {},
-    {},
     {
       "country": "New Zealand",
       "playerName": "Jesse Ryder",
@@ -5404,7 +5072,6 @@
       "runs": "1269",
       "cricbuzzId": "583"
     },
-    {},
     {
       "country": "South Africa",
       "playerName": "Alviro Petersen",
@@ -5453,8 +5120,6 @@
       "runs": "1196",
       "cricbuzzId": "587"
     },
-    {},
-    {},
     {
       "country": "India",
       "playerName": "Tanmay Srivastava",
@@ -5471,7 +5136,6 @@
       "runs": "8",
       "cricbuzzId": "590"
     },
-    {},
     {
       "country": "India",
       "playerName": "Praveen Kumar",
@@ -5488,10 +5152,6 @@
       "runs": "149",
       "cricbuzzId": "592"
     },
-    {},
-    {},
-    {},
-    {},
     {
       "country": "India",
       "playerName": "Mithun Manhas",
@@ -5604,7 +5264,6 @@
       "runs": "219",
       "cricbuzzId": "603"
     },
-    {},
     {
       "country": "Australia",
       "playerName": "Adam Voges",
@@ -5829,7 +5488,6 @@
       "runs": "401",
       "cricbuzzId": "618"
     },
-    {},
     {
       "country": "Ireland",
       "playerName": "Peter Gillespie",
@@ -7046,7 +6704,6 @@
       "runs": "0",
       "cricbuzzId": "695"
     },
-    {},
     {
       "country": "Pakistan",
       "playerName": "Fawad Alam",
@@ -7111,7 +6768,6 @@
       "runs": "821",
       "cricbuzzId": "700"
     },
-    {},
     {
       "country": "India",
       "playerName": "Ishant Sharma",
@@ -7160,31 +6816,6 @@
       "runs": "1312",
       "cricbuzzId": "704"
     },
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
     {
       "country": "Sri Lanka",
       "playerName": "Sujeewa de Silva",
@@ -7377,36 +7008,6 @@
       "runs": "245",
       "cricbuzzId": "741"
     },
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
     {
       "country": "England",
       "playerName": "James Kirtley",
@@ -7487,10 +7088,6 @@
       "runs": "707",
       "cricbuzzId": "776"
     },
-    {},
-    {},
-    {},
-    {},
     {
       "country": "Zimbabwe",
       "playerName": "Regis Chakabva",
@@ -7523,7 +7120,6 @@
       "runs": "20",
       "cricbuzzId": "782"
     },
-    {},
     {
       "country": "Bangladesh",
       "playerName": "Junaid Siddique",
@@ -7540,9 +7136,6 @@
       "runs": "969",
       "cricbuzzId": "784"
     },
-    {},
-    {},
-    {},
     {
       "country": "Bangladesh",
       "playerName": "Nazimuddin",
@@ -7559,7 +7152,6 @@
       "runs": "125",
       "cricbuzzId": "788"
     },
-    {},
     {
       "country": "India",
       "playerName": "Yusuf Pathan",
@@ -7640,23 +7232,6 @@
       "runs": "49",
       "cricbuzzId": "794"
     },
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
     {
       "country": "Sri Lanka",
       "playerName": "Dilruwan Perera",
@@ -7785,7 +7360,6 @@
       "runs": "54",
       "cricbuzzId": "819"
     },
-    {},
     {
       "country": "Canada",
       "playerName": "Jason Patraj",
@@ -7850,40 +7424,6 @@
       "runs": "34",
       "cricbuzzId": "824"
     },
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
     {
       "country": "Pakistan",
       "playerName": "Sohail Tanvir",
@@ -8012,20 +7552,6 @@
       "runs": "0",
       "cricbuzzId": "866"
     },
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
     {
       "country": "Pakistan",
       "playerName": "Sarfraz Ahmed",
@@ -8058,7 +7584,6 @@
       "runs": "55",
       "cricbuzzId": "882"
     },
-    {},
     {
       "country": "Zimbabwe",
       "playerName": "Ray Price",
@@ -8090,120 +7615,6 @@
       "fours": "0",
       "runs": "0",
       "cricbuzzId": "885"
-    },
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {}
+    }
   ]
 }

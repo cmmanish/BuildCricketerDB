@@ -112,7 +112,7 @@ public class TestBuildPlayersFromCricbuzz extends AbstractbBaseClass {
     @Test
     public void T1testPlayer() {
 
-        for (int i = 36; i < 500; i++) {
+        for (int i = 25; i < 999; i++) {
             cbURL = CRICBUZZ_PROFILE_BASE_URL + i + "/";
             try {
                 JSONObject playerInfoJson = extractBattingStatsIntoJson(cbURL);

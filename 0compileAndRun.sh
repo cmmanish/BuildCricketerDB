@@ -10,4 +10,4 @@
 ./gradlew -Dtest.single=TestDatabaseOperationsV2#populateNow clean test
 
 #upload the Cricket.db to Dropbox
-./gradlew -Dtest.single=TestUploadToDropbox clean test
+#./gradlew -Dtest.single=TestUploadToDropbox clean test

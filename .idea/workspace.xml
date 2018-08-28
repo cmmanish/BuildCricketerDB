@@ -2,45 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33eb8193-e61d-459e-b724-dab2ea699499" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/cache.properties.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/fileSnapshots.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/outputFileStates.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/outputFileStates.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/taskArtifacts.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/BuildCricketerDB_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/BuildCricketerDB_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/json/XXXPlayerStats.json" beforeDir="false" afterPath="$PROJECT_DIR$/PavilionService/json/XXXPlayerStats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/Untitled-1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/node_modules/clone/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/node_modules/clone/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/node_modules/clone/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/node_modules/clone/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/node_modules/clone/clone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/node_modules/clone/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/node_modules/clone/test-apart-ctx.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/node_modules/clone/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/node_modules/clone/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/node_modules/is-object/.jscs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/node_modules/is-object/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/node_modules/is-object/.testem.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/node_modules/is-object/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/node_modules/is-object/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/node_modules/is-object/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/node_modules/is-object/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/node_modules/is-object/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/node_modules/is-object/test/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/absorb/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/sqlite3/lib/binding/node-v57-darwin-x64/node_sqlite3.node" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/node_modules/sqlite3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/PavilionService/node_modules/sqlite3/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/PavilionService/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/rest/exampleGET.js" beforeDir="false" afterPath="$PROJECT_DIR$/PavilionService/rest/exampleGET.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/PavilionService/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PavilionService/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/PavilionService/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cricket/stats/database/SQLiteJDBCV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cricket/stats/database/SQLiteJDBCV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/cache.properties.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/fileSnapshots.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/outputFileStates.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/taskArtifacts.bin" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/0compileAndRun.sh" afterPath="$PROJECT_DIR$/0compileAndRun.sh" />
+      <change beforePath="$PROJECT_DIR$/PavilionService/database/CRICKET_V2.db" afterPath="$PROJECT_DIR$/PavilionService/database/CRICKET_V2.db" />
+      <change beforePath="$PROJECT_DIR$/PavilionService/json/XXXPlayerStats.json" afterPath="$PROJECT_DIR$/PavilionService/json/XXXPlayerStats.json" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/TestBuildPlayersFromCricbuzz.java" afterPath="$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/TestBuildPlayersFromCricbuzz.java" />
     </list>
     <ignored path="BuildCricketerDB.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,74 +69,91 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4973767">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="TestDatabaseOperationsV2.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/service/TestDatabaseOperationsV2.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="882">
-                  <caret line="63" column="57" lean-forward="true" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
-                  <folding>
-                    <element signature="e#652#653#0" expanded="true" />
-                    <element signature="e#689#690#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/PavilionService/server.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PavilionService/routes/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="422">
-                  <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SQLiteJDBCV2.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/cricket/stats/database/SQLiteJDBCV2.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="434">
-                  <caret line="49" column="30" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="XXXPlayerStats.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/PavilionService/json/XXXPlayerStats.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="200">
-                  <caret line="3649" column="6" lean-forward="true" selection-start-line="3649" selection-start-column="6" selection-end-line="3649" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="sqlite3_connect.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PavilionService/sqlite3_connect.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="0compileAndRun.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0compileAndRun.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestDatabaseOperationsV2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/service/TestDatabaseOperationsV2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding>
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQLiteJDBCV2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cricket/stats/database/SQLiteJDBCV2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XXXPlayerStats.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PavilionService/json/XXXPlayerStats.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-117892">
+              <caret line="213" column="10" lean-forward="false" selection-start-line="213" selection-start-column="10" selection-end-line="213" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBuildPlayersFromCricbuzz.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/TestBuildPlayersFromCricbuzz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1653">
+              <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PavilionService/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PavilionService/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PavilionService/views/pages/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -184,6 +172,7 @@
       <find>QaConstants.</find>
       <find>getRowCount</find>
       <find>Albie Morkel</find>
+      <find>adam</find>
     </findStrings>
     <replaceStrings>
       <replace>cbURL =</replace>
@@ -428,13 +417,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/BuildPlayersFromCricbuzz.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/TestDatabaseOperationsV2.java" />
         <option value="$PROJECT_DIR$/PavilionService/app.py" />
-        <option value="$PROJECT_DIR$/0compileAndRun.sh" />
         <option value="$PROJECT_DIR$/PavilionService/rest/exampleGET.js" />
-        <option value="$PROJECT_DIR$/PavilionService/json/XXXPlayerStats.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/cricket/stats/database/SQLiteJDBCV2.java" />
         <option value="$PROJECT_DIR$/PavilionService/server.js" />
         <option value="$PROJECT_DIR$/PavilionService/sqlite3_connect.js" />
         <option value="$PROJECT_DIR$/PavilionService/routes/index.js" />
+        <option value="$PROJECT_DIR$/0compileAndRun.sh" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/TestBuildPlayersFromCricbuzz.java" />
+        <option value="$PROJECT_DIR$/PavilionService/json/XXXPlayerStats.json" />
       </list>
     </option>
   </component>
@@ -445,17 +435,28 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="470" />
+    <option name="x" value="39" />
     <option name="y" value="23" />
-    <option name="width" value="1952" />
-    <option name="height" value="1491" />
+    <option name="width" value="1881" />
+    <option name="height" value="1177" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -473,79 +474,6 @@
               <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="PavilionService" type="462c0819:PsiDirectoryNode" />
               <item name="json" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="PavilionService" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cricket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cricket" type="462c0819:PsiDirectoryNode" />
-              <item name="stats" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BuildCricketerDB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BuildCricketerDB" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cricket" type="462c0819:PsiDirectoryNode" />
-              <item name="stats" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BuildCricketerDB" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BuildCricketerDB" type="eaaa3913:PackageViewModuleGroupNode" />
             </path>
           </expand>
           <select />
@@ -584,11 +512,43 @@
               <item name="java" type="cbb8eebc:String" user="java" />
               <item name="service" type="cbb8eebc:String" user="service" />
             </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="BuildCricketerDB" type="cbb8eebc:String" user="BuildCricketerDB" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="BuildCricketerDB" type="cbb8eebc:String" user="BuildCricketerDB" />
+              <item name="BuildCricketerDB" type="cbb8eebc:String" user="BuildCricketerDB" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="BuildCricketerDB" type="cbb8eebc:String" user="BuildCricketerDB" />
+              <item name="BuildCricketerDB" type="cbb8eebc:String" user="BuildCricketerDB" />
+              <item name=".idea" type="cbb8eebc:String" user=".idea" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="BuildCricketerDB" type="cbb8eebc:String" user="BuildCricketerDB" />
+              <item name="BuildCricketerDB" type="cbb8eebc:String" user="BuildCricketerDB" />
+              <item name="PavilionService" type="cbb8eebc:String" user="PavilionService" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BuildCricketerDB" type="58d84e3e:PackageViewProjectNode" />
+              <item name="BuildCricketerDB" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -598,7 +558,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="TestPopulateAustralianPlayers&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/test/java/com/cricket/stats/tests/TestPopulateAustralianPlayers.java&#10;QaPr&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/test/java/com/cricket/stats/util/QaProperties.java&#10;QaEmail&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/main/java/com/cricket/stats/util/QaEmail.java&#10;QaEma&#9;PSI&#9;JAVA://com.cricket.stats.util.QaEmail&#10;QaReportProcessor&#9;PSI&#9;JAVA://com.cricket.stats.QaReportProcessor&#10;Qa&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/main/java/com/cricket/stats/util/QaProperties.java&#10;log4j.&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/main/resources/log4j.properties&#10;player&#9;PSI&#9;JAVA://com.cricket.stats.tests.AbstractbBaseClass#playerStatsJSON" />
+    <property name="SearchEverywhereHistoryKey" value="TestDatabaseOperationsV2&#9;FILE&#9;file:///Users/manish/workspace/BuildCricketerDB/src/test/java/service/TestDatabaseOperationsV2.java&#10;TestPopulateAustralianPlayers&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/test/java/com/cricket/stats/tests/TestPopulateAustralianPlayers.java&#10;QaPr&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/test/java/com/cricket/stats/util/QaProperties.java&#10;QaEmail&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/main/java/com/cricket/stats/util/QaEmail.java&#10;QaEma&#9;PSI&#9;JAVA://com.cricket.stats.util.QaEmail&#10;QaReportProcessor&#9;PSI&#9;JAVA://com.cricket.stats.QaReportProcessor&#10;Qa&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/main/java/com/cricket/stats/util/QaProperties.java&#10;log4j.&#9;FILE&#9;file:///Users/manish/Google Drive/workspace/BuildCricketerDB/src/main/resources/log4j.properties&#10;player&#9;PSI&#9;JAVA://com.cricket.stats.tests.AbstractbBaseClass#playerStatsJSON" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.scala.compiler.ScalaCompileServerForm" />
@@ -626,40 +586,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestDatabaseOperationsV2.TestShowGreatBatsmenV2">
+  <component name="RunManager" selected="JUnit.TestDatabaseOperationsV2.populateNow">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
+      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
     </configuration>
-    <configuration name="BuildCricketerDB [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="assemble" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
+    <configuration name="TestBuildPlayersFromCricbuzz.T1testPlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cricket.stats.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="BuildCricketerDB_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cricket.stats.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.cricket.stats.tests.TestBuildPlayersFromCricbuzz" />
+      <option name="METHOD_NAME" value="T1testPlayer" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TestDatabaseOperationsV2.TestCreateTableV2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BuildCricketerDB_test" />
-      <extension name="coverage">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <module name="BuildCricketerDB_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="service" />
@@ -669,10 +653,41 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
+      <patterns />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDatabaseOperationsV2.TestGetRowCountV2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="BuildCricketerDB_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.TestDatabaseOperationsV2" />
+      <option name="METHOD_NAME" value="TestGetRowCountV2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
       <patterns />
       <method>
         <option name="Make" enabled="false" />
@@ -680,13 +695,13 @@
       </method>
     </configuration>
     <configuration name="TestDatabaseOperationsV2.TestShowGreatBatsmenV2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BuildCricketerDB_test" />
-      <extension name="coverage">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <module name="BuildCricketerDB_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="service" />
@@ -696,37 +711,12 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <patterns />
-      <method>
-        <option name="Make" enabled="false" />
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDatabaseOperationsV2.TestShowINDPLayersV2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BuildCricketerDB_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.TestDatabaseOperationsV2" />
-      <option name="METHOD_NAME" value="TestShowINDPLayersV2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <envs />
       <patterns />
       <method>
         <option name="Make" enabled="false" />
@@ -734,13 +724,13 @@
       </method>
     </configuration>
     <configuration name="TestDatabaseOperationsV2.populateNow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BuildCricketerDB_test" />
-      <extension name="coverage">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <module name="BuildCricketerDB_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="service" />
@@ -750,10 +740,12 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
       <method>
         <option name="Make" enabled="false" />
@@ -761,6 +753,8 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -770,10 +764,12 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
       <method>
         <option name="Make" enabled="false" />
@@ -781,6 +777,8 @@
       </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -793,29 +791,32 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
+      <envs />
       <properties />
       <listeners />
     </configuration>
-    <list>
-      <item itemvalue="JUnit.TestDatabaseOperationsV2.populateNow" />
-      <item itemvalue="JUnit.TestDatabaseOperationsV2.TestShowINDPLayersV2" />
-      <item itemvalue="JUnit.TestDatabaseOperationsV2.TestCreateTableV2" />
-      <item itemvalue="JUnit.TestDatabaseOperationsV2.TestShowGreatBatsmenV2" />
-      <item itemvalue="Gradle.BuildCricketerDB [assemble]" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestDatabaseOperationsV2.TestShowGreatBatsmenV2" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestDatabaseOperationsV2.TestCreateTableV2" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestDatabaseOperationsV2.TestGetRowCountV2" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestDatabaseOperationsV2.populateNow" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestBuildPlayersFromCricbuzz.T1testPlayer" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.TestDatabaseOperationsV2.TestShowGreatBatsmenV2" />
-        <item itemvalue="Gradle.BuildCricketerDB [assemble]" />
-        <item itemvalue="JUnit.TestDatabaseOperationsV2.TestShowINDPLayersV2" />
-        <item itemvalue="JUnit.TestDatabaseOperationsV2.populateNow" />
-        <item itemvalue="JUnit.TestDatabaseOperationsV2.TestCreateTableV2" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestDatabaseOperationsV2.populateNow" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestDatabaseOperationsV2.TestGetRowCountV2" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestBuildPlayersFromCricbuzz.T1testPlayer" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestDatabaseOperationsV2.TestShowGreatBatsmenV2" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestDatabaseOperationsV2.TestCreateTableV2" />
       </list>
     </recent_temporary>
   </component>
@@ -828,6 +829,9 @@
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -843,99 +847,119 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDatabaseOperationsV2_TestShowGreatBatsmenV2 - 2018.08.20 at 19h 57m 18s.xml">
+    <history-entry file="TestBuildPlayersFromCricbuzz_T1testPlayer - 2018.08.28 at 08h 18m 58s.xml">
+      <configuration name="TestBuildPlayersFromCricbuzz.T1testPlayer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDatabaseOperationsV2_TestGetRowCountV2 - 2018.08.24 at 01h 20m 21s.xml">
+      <configuration name="TestDatabaseOperationsV2.TestGetRowCountV2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDatabaseOperationsV2_TestGetRowCountV2 - 2018.08.25 at 07h 11m 39s.xml">
+      <configuration name="TestDatabaseOperationsV2.TestGetRowCountV2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDatabaseOperationsV2_TestGetRowCountV2 - 2018.08.28 at 07h 52m 26s.xml">
+      <configuration name="TestDatabaseOperationsV2.TestGetRowCountV2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDatabaseOperationsV2_TestGetRowCountV2 - 2018.08.28 at 08h 28m 28s.xml">
+      <configuration name="TestDatabaseOperationsV2.TestGetRowCountV2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDatabaseOperationsV2_TestShowGreatBatsmenV2 - 2018.08.24 at 01h 20m 01s.xml">
       <configuration name="TestDatabaseOperationsV2.TestShowGreatBatsmenV2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDatabaseOperationsV2_TestShowGreatBatsmenV2 - 2018.08.20 at 19h 57m 41s.xml">
+    <history-entry file="TestDatabaseOperationsV2_TestShowGreatBatsmenV2 - 2018.08.25 at 07h 11m 27s.xml">
       <configuration name="TestDatabaseOperationsV2.TestShowGreatBatsmenV2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDatabaseOperationsV2_TestShowGreatBatsmenV2 - 2018.08.20 at 19h 58m 35s.xml">
-      <configuration name="TestDatabaseOperationsV2.TestShowGreatBatsmenV2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDatabaseOperationsV2_TestShowINDPLayersV2 - 2018.08.20 at 19h 53m 41s.xml">
+    <history-entry file="TestDatabaseOperationsV2_TestShowINDPLayersV2 - 2018.08.24 at 01h 20m 38s.xml">
       <configuration name="TestDatabaseOperationsV2.TestShowINDPLayersV2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDatabaseOperationsV2_TestShowINDPLayersV2 - 2018.08.20 at 20h 07m 56s.xml">
-      <configuration name="TestDatabaseOperationsV2.TestShowINDPLayersV2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDatabaseOperationsV2_populateNow - 2018.08.20 at 20h 04m 55s.xml">
+    <history-entry file="TestDatabaseOperationsV2_populateNow - 2018.08.25 at 07h 12m 14s.xml">
       <configuration name="TestDatabaseOperationsV2.populateNow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDatabaseOperationsV2_populateNow - 2018.08.20 at 20h 05m 08s.xml">
+    <history-entry file="TestDatabaseOperationsV2_populateNow - 2018.08.28 at 08h 28m 19s.xml">
       <configuration name="TestDatabaseOperationsV2.populateNow" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDatabaseOperationsV2_populateNow - 2018.08.20 at 20h 07m 39s.xml">
-      <configuration name="TestDatabaseOperationsV2.populateNow" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestPopulateDatabaseV2_populateNow - 2018.08.20 at 00h 15m 56s.xml">
-      <configuration name="TestPopulateDatabaseV2.populateNow" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDatabaseOperationsV2_TestShowGreatBatsmenV2 - 2018.08.23 at 13h 26m 53s.xml">
-      <configuration name="TestDatabaseOperationsV2.TestShowGreatBatsmenV2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="470" y="23" width="1952" height="1491" extended-state="0" />
-    <editor active="true" />
+    <frame x="39" y="23" width="1881" height="1177" extended-state="0" />
     <layout>
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.328877" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.5011111" side_tool="true" weight="0.26026604" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.29144385" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="15" visible="true" weight="0.30415756" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23828803" />
-      <window_info anchor="right" id="Gradle" order="9" sideWeight="0.61454546" weight="0.19548872" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.2494244" />
-      <window_info anchor="right" id="Ant Build" order="2" sideWeight="0.38405797" side_tool="true" weight="0.2596877" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.25686276" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="12" weight="0.32941177" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2917847" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.319169" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27025557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494244" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31444758" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494244" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25686276" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29215688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26730564" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Gradle" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24707136" />
-      <window_info id="Structure" order="1" weight="0.2494244" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29215688" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25686276" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="8" weight="0.32941177" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32941177" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494244" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25686276" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29215688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24707136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -943,8 +967,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="39" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/service/TestDatabaseOperationsV2.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="46" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1000,10 +1033,45 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cricket/stats/database/SQLiteJDBCV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="279" column="0" lean-forward="false" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/TestBuildPlayersFromCricbuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="118" column="34" lean-forward="false" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/TestDatabaseOperationsV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="72" column="38" lean-forward="false" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="38" />
+          <folding>
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0compileAndRun.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/2.45.0/cc9c42ec7cb9d1197c59635c8c4292bd52ace153/selenium-remote-driver-2.45.0-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
-          <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
+          <caret line="151" column="9" lean-forward="false" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1012,7 +1080,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/HelloJava.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1020,7 +1088,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cricket/stats/database/JSON_JDBC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1041,21 +1109,21 @@
     <entry file="file://$PROJECT_DIR$/PavilionService/json/WIPlayerStats.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1488">
-          <caret line="75" column="57" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="57" />
+          <caret line="75" column="57" lean-forward="false" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PavilionService/json/AUSPlayerStats.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
-          <caret line="229" column="11" selection-start-line="229" selection-start-column="11" selection-end-line="229" selection-end-column="11" />
+          <caret line="229" column="11" lean-forward="false" selection-start-line="229" selection-start-column="11" selection-end-line="229" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PavilionService/json/SLPlayerStats.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="771">
-          <caret line="245" column="56" selection-start-line="245" selection-start-column="53" selection-end-line="245" selection-end-column="56" />
+          <caret line="245" column="56" lean-forward="false" selection-start-line="245" selection-start-column="53" selection-end-line="245" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -1076,14 +1144,14 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/TestPopulatePakistanPlayers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
-          <caret line="118" column="27" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
+          <caret line="118" column="27" lean-forward="false" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/TestPopulateNewZealandPlayers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1118,14 +1186,14 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/TestPopulateIndiaPlayers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="41" />
+          <caret line="39" column="41" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.8.11.1/7a49e71343b920bb218c648b5bdd5ec9d150a6ef/sqlite-jdbc-3.8.11.1-sources.jar!/org/sqlite/jdbc3/JDBC3ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="394" selection-start-line="394" selection-end-line="394" />
+          <caret line="394" column="0" lean-forward="false" selection-start-line="394" selection-start-column="0" selection-end-line="394" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1146,21 +1214,21 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/AbstractbBaseClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
-          <caret line="89" column="10" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+          <caret line="89" column="10" lean-forward="false" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
-          <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+          <caret line="147" column="17" lean-forward="false" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1175,24 +1243,19 @@
     <entry file="file://$PROJECT_DIR$/PavilionService/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/BuildPlayersFromCricbuzz.java" />
     <entry file="file://$PROJECT_DIR$/PavilionService/app.py" />
-    <entry file="file://$PROJECT_DIR$/0compileAndRun.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cricket/stats/utils/QaConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1200,7 +1263,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="165">
-            <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+            <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           </first_editor>
           <second_editor />
         </state>
@@ -1227,78 +1290,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PavilionService/rest/httpAsyncPOST.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PavilionService/rest/httpRequestify.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PavilionService/rest/json_append.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PavilionService/rest/httpsyncGet.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/PavilionService/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cricket/stats/database/SQLiteJDBC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
-          <caret line="165" column="63" selection-start-line="165" selection-start-column="26" selection-end-line="165" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/TestBuildPlayersFromCricbuzz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-106">
-          <caret line="78" column="42" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="42" />
+          <caret line="165" column="63" lean-forward="false" selection-start-line="165" selection-start-column="26" selection-end-line="165" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/service/TestPopulateDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
-          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PavilionService/json/XXXPlayerStats.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="3649" column="6" lean-forward="true" selection-start-line="3649" selection-start-column="6" selection-end-line="3649" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cricket/stats/database/SQLiteJDBCV2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="49" column="30" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/TestDatabaseOperationsV2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="63" column="57" lean-forward="true" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
-          <folding>
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PavilionService/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="399">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,8 +1331,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PavilionService/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+        <state relative-caret-position="96">
+          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0compileAndRun.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PavilionService/json/XXXPlayerStats.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117892">
+          <caret line="213" column="10" lean-forward="false" selection-start-line="213" selection-start-column="10" selection-end-line="213" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cricket/stats/tests/TestBuildPlayersFromCricbuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1653">
+          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cricket/stats/database/SQLiteJDBCV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/TestDatabaseOperationsV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
