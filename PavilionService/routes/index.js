@@ -52,7 +52,7 @@ db.serialize(function() {
       console.log("  "+row.player_name + " : " + row.country);
   });
 });
-    response.render('pages/goat_index');
+    //response.render('pages/goat_index');
 };
 
 exports.handletop10 = function (request, response) {
