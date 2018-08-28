@@ -48,13 +48,11 @@ exports.handleGoat = function (request, response) {
     });
 
 db.serialize(function() {
-  db.each("select * from PLAYER where bat_avg > 50.0 and tests > 30;", function(err, row) {
-      console.log(row.player_name + " : " + row.country);
+  db.each("select * from PLAYER where bat_avg > 50.0 and tests > 50;", function(err, row) {
+      console.log("  "+row.player_name + " : " + row.country);
   });
 });
-    response.writeHead(200, {'Content-Type': 'application/json'})
-    //response.write(JSON.stringify(jsonContent,null,2));
-    response.end();
+    response.render('pages/goat_index');
 };
 
 exports.handletop10 = function (request, response) {

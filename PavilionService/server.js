@@ -15,11 +15,12 @@ var http = require('http'),
 app.use(morgan('dev')); // log requests to the console
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.set('view engine', 'html');
+//app.set('view engine', 'html');
+app.set('view engine', 'ejs');
 
 app.get('/', routes.handleHOME);
 
-app.get('/GET/:country', routes.handleGET);
+app.get('/get/:country', routes.handleGET);
 
 app.get('/goat', routes.handleGoat);
 
