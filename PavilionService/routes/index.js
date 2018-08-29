@@ -48,7 +48,7 @@ exports.handleGoat = function (request, response) {
     });
 
 db.serialize(function() {
-   db.all("select * from PLAYER where bat_avg > 50.0 and tests > 50;", function(err, rows) {
+   db.all("select * from PLAYER where bat_avg > 50.0 and tests > 50 order by runs DESC;", function(err, rows) {
    response.render('pages/goat_index',{players : rows });
    rows.forEach((row) => {
        console.log(row.player_name);
