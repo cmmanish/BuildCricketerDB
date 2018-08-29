@@ -15,42 +15,55 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-    <!-- <div class="btn-group" data-toggle="buttons-radio">
-        <button type="button" class="btn btn-primary">AUS</button>
-        <button type="button" class="btn btn-primary">ENG</button>
-        <button type="button" class="btn btn-primary">IND</button>
-        <button type="button" class="btn btn-primary">NZ</button>
-        <button type="button" class="btn btn-primary">PAK</button>
-        <button type="button" class="btn btn-primary">SA</button>
-        <button type="button" class="btn btn-primary">SL</button>
-        <button type="button" class="btn btn-primary">WI</button>
-
-        <input type="text" id="buttonvalue"/>
-
-        <script language="javascript" type="text/javascript">
-            $(".btn-group button").click(function () {
-                $("#buttonvalue").val($(this).text());
-            });
-        </script>
-    </div> -->
-
-    <table class="table table-bordered">
-        <thead>
+    <table class="table table-bordered table-hover">
+       <tr>
+           <th align = center>Player Name</th>
+           <th align = center>Country</th>
+           <th align = center>Tests</th>
+           <th align = center>Runs</th>
+           <th align = center>Bat Average</th>
+           <th align = center>Highest Score</th>
+           <th align = center>Hundreds</th>
+           <th align = center>Fifties</th>
+       </tr>
+       <% for(var i = 0; i < players.length; i++) {%>
         <tr>
-            <th data-field="id">Player Name</th>
-            <th data-field="name">Country</th>
-            <th data-field="price">Tests</th>
-            <th data-field="price">Innings</th>
-            <th data-field="price">Runs</th>
-            <th data-field="price">Bat Average</th>
-            <th data-field="price">Strike Rate</th>
-            <th data-field="price">Highest Score</th>
-            <th data-field="price">Hundreds</th>
-            <th data-field="price">Fifties</th>
-        </tr>
-        </thead>
+            <td align = center>
+              <%= players[i].player_name %> </p>
+            </td>
+            <td align = center>
+              <%= players[i].country %> </p>
+            </td>
+            <td align = center>
+                <%= players[i].tests %> </p>
+            </td>
+            <td align = center>
+                 <%= players[i].runs %> </p>
+            </td>
+            <td align = center>
+                 <%= players[i].bat_avg %> </p>
+            </td>
+            <td align = center>
+                 <%= players[i].strike_rate %> </p>
+            </td>
+            <td align = center>
+                 <%= players[i].highest_score %> </p>
+            </td>
+            <td align = center>
+                 <%= players[i].hundreds %> </p>
+            </td>
+            <td align = center>
+                 <%= players[i].fifties %> </p>
+            </td>
+            </tr>
+       <% } %>
     </table>
-</div>
+
+
+
+
+
+
 <footer>
     <% include ../partials/footer %>
 </footer>

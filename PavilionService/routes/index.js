@@ -48,11 +48,15 @@ exports.handleGoat = function (request, response) {
     });
 
 db.serialize(function() {
-  db.each("select * from PLAYER where bat_avg > 50.0 and tests > 50;", function(err, row) {
-      console.log("  "+row.player_name + " : " + row.country);
-  });
+   db.all("select * from PLAYER where bat_avg > 50.0 and tests > 50;", function(err, rows) {
+   response.render('pages/goat_index',{players : rows });
+   rows.forEach((row) => {
+       console.log(row.player_name);
+     });
+   });
+db.close();
 });
-    //response.render('pages/goat_index');
+
 };
 
 exports.handletop10 = function (request, response) {
