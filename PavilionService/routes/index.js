@@ -48,13 +48,15 @@ exports.handleGoat = function (request, response) {
     });
 
 db.serialize(function() {
-  db.each("select * from PLAYER where bat_avg > 50.0 and tests > 30;", function(err, row) {
-      console.log(row.player_name + " : " + row.country);
-  });
+   db.all("select * from PLAYER where bat_avg > 50.0 and tests > 50 order by runs DESC;", function(err, rows) {
+   response.render('pages/goat_index',{players : rows });
+   rows.forEach((row) => {
+       console.log(row.player_name);
+     });
+   });
+db.close();
 });
-    response.writeHead(200, {'Content-Type': 'application/json'})
-    //response.write(JSON.stringify(jsonContent,null,2));
-    response.end();
+
 };
 
 exports.handletop10 = function (request, response) {

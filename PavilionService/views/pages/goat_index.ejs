@@ -1,0 +1,68 @@
+<!-- views/pages/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="container">
+
+<header>
+    <% include ../partials/header %>
+</header>
+
+<div class="jumbotron">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <table class="table table-bordered table-hover">
+       <tr>
+           <th align = center>Player Name</th>
+           <th align = center>Country</th>
+           <th align = center>Tests</th>
+           <th align = center>Runs</th>
+           <th align = center>Bat Average</th>
+           <th align = center>Highest Score</th>
+           <th align = center>Hundreds</th>
+           <th align = center>Fifties</th>
+       </tr>
+       <% for(var i = 0; i < players.length; i++) {%>
+        <tr>
+            <td align = center>
+              <%= players[i].player_name %> </p>
+            </td>
+            <td align = center>
+              <%= players[i].country %> </p>
+            </td>
+            <td align = center>
+                <%= players[i].tests %> </p>
+            </td>
+            <td align = center>
+                 <%= players[i].runs %> </p>
+            </td>
+            <td align = center>
+                 <%= players[i].bat_avg %> </p>
+            </td>
+            <td align = center>
+                 <%= players[i].highest_score %> </p>
+            </td>
+            <td align = center>
+                 <%= players[i].hundreds %> </p>
+            </td>
+            <td align = center>
+                 <%= players[i].fifties %> </p>
+            </td>
+            </tr>
+       <% } %>
+    </table>
+
+
+
+
+
+
+<footer>
+    <% include ../partials/footer %>
+</footer>
+</body>
+</html>
