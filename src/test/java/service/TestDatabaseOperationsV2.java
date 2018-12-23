@@ -1,8 +1,6 @@
 package service;
 
 import com.cricket.stats.database.SQLiteJDBCV2;
-import junit.framework.Assert;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -21,40 +19,42 @@ public class TestDatabaseOperationsV2 {
     public static Logger log = Logger.getLogger(String.valueOf(TestDatabaseOperationsV2.class));
 
     Instant start, end;
+
     @Before
-    public void beforeTest(){
+    public void beforeTest() {
         start = Instant.now();
     }
 
     @After
-    public void afterTest(){
+    public void afterTest() {
         end = Instant.now();
         Duration timeElapsed = Duration.between(start, end);
-        log.info("Time taken: "+ timeElapsed.toMillis() +" milliseconds");
+        log.info("Time taken: " + timeElapsed.toMillis() + " milliseconds");
     }
+
+    @Test
+
+    public void databaseExists() {
+        SQLiteJDBCV2 sqliteJDBCV2 = new SQLiteJDBCV2();
+        assert sqliteJDBCV2.dbConnect();
+
+    }
+
     @Test
     public void populateNow() {
-        try {
-            SQLiteJDBCV2 sqliteJDBCV2 = new SQLiteJDBCV2();
-            sqliteJDBCV2.dbConnect();
-            sqliteJDBCV2.deleteAllRow();
-            String filePath = PLAYER_JSON_LOCATION + File.separator + "XXX" + PLAYER_STATS_FILE_JSON;
-            sqliteJDBCV2.readJSONAndInsertToDatabase(filePath);
-            log.info("Row Count " + sqliteJDBCV2.getRowCount());
+        SQLiteJDBCV2 sqliteJDBCV2 = new SQLiteJDBCV2();
+        sqliteJDBCV2.dbConnect();
+        sqliteJDBCV2.deleteAllRow();
+        String filePath = PLAYER_JSON_LOCATION + File.separator + "XXX" + PLAYER_STATS_FILE_JSON;
+        sqliteJDBCV2.readJSONAndInsertToDatabase(filePath);
+        log.info("Row Count " + sqliteJDBCV2.getRowCount());
 
-        } catch (Exception e) {
-            e.getLocalizedMessage();
-        }
     }
 
     @Test
     public void TestCreateTableV2() {
-        try {
-            SQLiteJDBCV2 sqliteJDBCV2 = new SQLiteJDBCV2();
-            Assert.assertEquals(true, sqliteJDBCV2.createTable());
-        } catch (Exception e) {
-            e.getLocalizedMessage();
-        }
+        SQLiteJDBCV2 sqliteJDBCV2 = new SQLiteJDBCV2();
+        assert sqliteJDBCV2.createTable();
     }
 
     @Test
@@ -84,12 +84,19 @@ public class TestDatabaseOperationsV2 {
     @Test
     public void TestDropTableV2() {
         SQLiteJDBCV2 sqliteJDBCV2 = new SQLiteJDBCV2();
-        Assert.assertEquals(true, sqliteJDBCV2.dropTable());
+        assert sqliteJDBCV2.dropTable();
     }
 
     @Test
     public void TestGetRowCountV2() {
         SQLiteJDBCV2 sqliteJDBCV2 = new SQLiteJDBCV2();
         log.info("Row Count " + sqliteJDBCV2.getRowCount());
+    }
+
+    @Test
+    public void TestShowTablesV2() {
+        SQLiteJDBCV2 sqliteJDBCV2 = new SQLiteJDBCV2();
+        log.info("Row Count " + sqliteJDBCV2.showTable());
+        sqliteJDBCV2.showTable();
     }
 }

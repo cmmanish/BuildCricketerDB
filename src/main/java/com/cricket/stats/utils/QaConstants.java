@@ -22,5 +22,6 @@ public interface QaConstants {
     public static final String CRICBUZZ_BASE_URL = "http://www.cricbuzz.com";
     public static final String CRICBUZZ_PROFILE_BASE_URL = "http://www.cricbuzz.com/profiles/";
     public static final String PLAYER_JSON_LOCATION = "PavilionService/json";
+    public static final String DATABASE_LOCATION = "/Users/manish/Google Drive/workspace/CricStatsService/PavilionService/database";
 
 }
