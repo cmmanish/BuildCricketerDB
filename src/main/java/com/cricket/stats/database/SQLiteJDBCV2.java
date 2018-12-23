@@ -15,28 +15,31 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
+import static com.cricket.stats.utils.QaConstants.DATABASE_LOCATION;
+
 public class SQLiteJDBCV2 {
     public static Logger log = Logger.getLogger(String.valueOf(SQLiteJDBCV2.class));
 
     protected static String fileName = "XXXPlayerStats.json";
-
     private String JDBCConnection = "org.sqlite.JDBC";
-    private String dbConectionString = "jdbc:sqlite:PavilionService/database/CRICKET_V2.db";
+    private String DB_NAME = "CRICKET_V2.db";
+    private String dbConectionString = "jdbc:sqlite:" + DATABASE_LOCATION +"/" + DB_NAME;
     protected String playerName, country = "";
     protected int cricbuzzId, tests, innings, runs, highestScore, notOuts, hundreds, fifties, fours, sixes = 0;
     protected double batAvg, strikeRate = 0.00;
 
-    public void dbConnect() {
+    public boolean dbConnect() {
         Connection c = null;
         try {
             Class.forName(JDBCConnection);
             c = DriverManager.getConnection(dbConectionString);
-
+            log.info("database Connected successfully");
+            return c.getAutoCommit();
         } catch (Exception e) {
             log.info(e.getClass().getName() + ": " + e.getMessage());
             System.exit(0);
+            return false;
         }
-        log.info("database Connected successfully");
     }
 
     public boolean createTable() {
@@ -249,7 +252,7 @@ public class SQLiteJDBCV2 {
             c.setAutoCommit(false);
 
             stmt = c.createStatement();
-            String sql = "SHOW TABLES ";
+            String sql = "SHOW TABLES ;";
             ResultSet rs = stmt.executeQuery(sql);
 
             while (rs.next()) {
